@@ -10,4 +10,5 @@ __pycache__/
 .DS_Store
 codeql-win64.zip
 qwen_output.zip
-python-db/
+python-db/*-db/
+*.log
