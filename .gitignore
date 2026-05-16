@@ -1,0 +1,13 @@
+qwen_env/
+codeql/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+__pycache__/
+*.pyc
+.DS_Store
+codeql-win64.zip
+qwen_output.zip
+python-db/
