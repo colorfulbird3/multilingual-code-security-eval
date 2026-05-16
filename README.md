@@ -27,3 +27,26 @@ This project implements a full automated pipeline to **measure the impact of pro
 ---
 
 ## 📂 Repository Structure
+.
+├── run_code_sec_bench.py # Inference script for Qwen2‑0.5B
+├── run_code_sec_bench_7b.py # Inference script for Qwen2‑7B (4‑bit)
+├── run_code_sec_bench_7b_resume.py # Resumable version of the 7B script
+├── filter_code.py # Post‑processing: keep only syntactically valid Python snippets
+├── split_python.py # Splits generated Python file into individual .py files
+├── CodeSecBenchHub/ # Local copy of the multilingual dataset
+├── qwen_output/ # Generated code from 0.5B model
+├── qwen_output_7b/ # Generated code from 7B model
+├── .gitignore
+└── README.md
+
+---
+
+## ⚙️ Installation & Dependencies
+
+> **Hardware**: Tested on Windows 11 with NVIDIA RTX 4060 Laptop GPU (8 GB VRAM).  
+> For 7B inference, 4‑bit quantisation is required; for 0.5B, standard `float16` works fine.
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/colorfulbird3/multilingual-code-security-eval.git
+   cd multilingual-code-security-eval
