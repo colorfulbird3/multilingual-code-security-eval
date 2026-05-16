@@ -1,5 +1,3 @@
-# multilingual-code-security-eval
-A systematic evaluation of LLM-generated code security under multilingual prompts. Uses CodeSecBenchHub dataset, Qwen2 models, and CodeQL static analysis to assess whether low-resource languages introduce more vulnerabilities than English.
 # Multilingual Code Security Evaluation
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -27,25 +25,18 @@ This project implements a full automated pipeline to **measure the impact of pro
 ---
 
 ## 📂 Repository Structure
-.
-├── run_code_sec_bench.py
-│ # Inference script for Qwen2‑0.5B
-├── run_code_sec_bench_7b.py
-│ # Inference script for Qwen2‑7B (4‑bit)
-├── run_code_sec_bench_7b_resume.py
-│ # Resumable version of the 7B script
-├── filter_code.py
-│ # Post‑processing: keep only syntactically valid Python snippets
-├── split_python.py
-│ # Splits generated Python file into individual .py files
-├── CodeSecBenchHub/
-│ # Local copy of the multilingual dataset
-├── qwen_output/
-│ # Generated code from 0.5B model
-├── qwen_output_7b/
-│ # Generated code from 7B model
-├── .gitignore
-└── README.md
+
+- 根目录（`/`）：
+  - `run_code_sec_bench.py`：Qwen2-0.5B 推理脚本
+  - `run_code_sec_bench_7b.py`：Qwen2-7B（4-bit）推理脚本
+  - `run_code_sec_bench_7b_resume.py`：7B 脚本的续传版本
+  - `filter_code.py`：后处理（仅保留语法有效的 Python 代码片段）
+  - `split_python.py`：将生成的 Python 文件拆分为单个 `.py` 文件
+  - `CodeSecBenchHub/`：多语言数据集的本地副本
+  - `qwen_output/`：0.5B 模型生成的代码
+  - `qwen_output_7b/`：7B 模型生成的代码
+  - `.gitignore`：Git 忽略规则文件
+  - `README.md`：项目说明文档
 
 ---
 
@@ -55,6 +46,104 @@ This project implements a full automated pipeline to **measure the impact of pro
 > For 7B inference, 4‑bit quantisation is required; for 0.5B, standard `float16` works fine.
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/colorfulbird3/multilingual-code-security-eval.git
-   cd multilingual-code-security-eval
+   
+        git clone https://github.com/colorfulbird3/multilingual-code-security-eval.git
+        cd multilingual-code-security-eval
+
+2. **Create a Python virtual environment** (recommended)
+   
+        python -m venv qwen_env
+        qwen_env\Scripts\activate   # Windows
+        # source qwen_env/bin/activate  # Linux/Mac
+
+3. **Install PyTorch (CUDA 12.1) and dependencies**
+   
+        pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+        pip install transformers accelerate bitsandbytes tqdm
+
+4. **Install CodeQL CLI**  
+   Download from [github/codeql-cli-binaries](https://github.com/github/codeql-cli-binaries/releases/latest) and add the directory to your `PATH`.
+
+5. **Install C/C++ and Java compilers** (required for CodeQL database creation of compiled languages)
+   - **C/C++**: [MinGW‑w64](https://winlibs.com/) (or use the pre‑installed `gcc` on Linux)
+   - **Java**: [Adoptium JDK 17+](https://adoptium.net/) (or `sudo apt install openjdk-17-jdk`)
+
+---
+
+## 🚀 Running the Evaluation
+
+### Step 1 – Generate Code with Qwen2
+
+For the **0.5B model** (fast, but lower quality):
+
+    python run_code_sec_bench.py
+
+For the **7B model** (higher quality, requires quantisation, supports resume):
+
+    python run_code_sec_bench_7b_resume.py
+
+> **Resume**: If the script is interrupted, simply re‑run it; it will automatically skip already‑processed prompts by counting `---END---` separators in the output files.
+
+### Step 2 – Filter Syntactically Correct Python Code (only needed for 0.5B)
+
+The 0.5B model often mixes natural language and markdown into the generated Python, causing CodeQL to reject the entire file. Run the filter:
+
+    python filter_code.py
+
+This keeps only snippets that pass `ast.parse()`, writing `generated_clean.py`.
+
+### Step 3 – Create CodeQL Databases & Run Analysis
+
+    cd qwen_output_7b   # or qwen_output for 0.5B
+
+    # Python
+    codeql pack download codeql/python-queries
+    codeql database create python-db --language=python --overwrite --source-root=./python
+    codeql database analyze python-db --format=sarif-latest --output=python-results.sarif codeql/python-queries
+
+    # C++
+    codeql pack download codeql/cpp-queries
+    codeql database create cpp-db --language=cpp --overwrite --source-root=./cpp --command="cmd /c (gcc -c -fsyntax-only generated.cpp) || exit 0"
+    codeql database analyze cpp-db --format=sarif-latest --output=cpp-results.sarif codeql/cpp-queries
+
+    # Java
+    codeql pack download codeql/java-queries
+    codeql database create java-db --language=java --overwrite --source-root=./java --command="cmd /c (javac generated.java) || exit 0"
+    codeql database analyze java-db --format=sarif-latest --output=java-results.sarif codeql/java-queries
+
+Results are saved as SARIF files (`python-results.sarif`, `cpp-results.sarif`, `java-results.sarif`), which can be opened in **VS Code** with the **SARIF Viewer** extension or converted with the CodeQL CLI.
+
+---
+
+## 📊 Key Findings (Preliminary)
+
+| Observation | Details |
+|-------------|---------|
+| **“Grammar blindness” of static analysis** | Small models (0.5B) often embed natural language & markdown in code, causing CodeQL to skip the entire file. Filtering with `ast.parse()` recovered analysable code. |
+| **Higher vulnerability density in low‑resource language prompts** | On the 0.5B model, Tagalog, Zulu and Afrikaans prompts led to more security issues (e.g., command injection, SQL injection) compared to English prompts. |
+| **Larger models mitigate, but do not eliminate, the gap** | The 7B model produced syntactically cleaner code, but cross‑lingual vulnerability differences persisted to some degree. |
+| **Compiled language evaluation is brittle** | C++ and Java require a build command; even with forced exit‑0 tricks, the extremely low‑quality code led to low analysis coverage. |
+
+---
+
+## 📝 Citation
+
+If you use this work or the CodeSecBenchHub dataset, please cite:
+e-mail：a1396228851@outlook.com
+
+    @misc{multilingual-code-security-eval,
+      author = {Your Name},
+      title = {Multilingual Code Security Evaluation with Qwen and CodeQL},
+      year = 2026,
+      howpublished = {\url{https://github.com/colorfulbird3/multilingual-code-security-eval}},
+    }
+
+---
+
+## 📧 Contact
+
+For questions or collaboration, feel free to open an issue or reach out via GitHub.
+
+---
+
+*Made with ❤️ in the pursuit of safer AI‑generated code, across all languages.*
