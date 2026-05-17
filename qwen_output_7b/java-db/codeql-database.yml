@@ -1,0 +1,12 @@
+---
+sourceLocationPrefix: E:\sven\qwen_output_7b\java
+baselineLinesOfCode: 14796
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: java
+creationMetadata:
+  cliVersion: 2.25.4
+  creationTime: 2026-05-17T03:31:09.495293800Z
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true

@@ -1,0 +1,12 @@
+---
+sourceLocationPrefix: E:\sven\qwen_output_7b\python
+baselineLinesOfCode: 4704
+unicodeNewlines: false
+columnKind: utf32
+primaryLanguage: python
+creationMetadata:
+  cliVersion: 2.25.4
+  creationTime: 2026-05-17T03:38:37.304791400Z
+overlayDatabase: false
+overlayBaseDatabase: false
+finalised: true

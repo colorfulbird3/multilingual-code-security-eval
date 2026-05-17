@@ -8,8 +8,8 @@ from tqdm import tqdm
 MODEL_NAME = "Qwen/Qwen2-7B-Instruct"
 DATASET_ROOT = r"E:\sven\CodeSecBenchHub"
 OUTPUT_ROOT = r"E:\sven\qwen_output_7b"
-BATCH_SIZE = 2
-MAX_NEW_TOKENS = 512
+BATCH_SIZE = 1
+MAX_NEW_TOKENS = 256
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 print(f"Using device: {DEVICE}")
