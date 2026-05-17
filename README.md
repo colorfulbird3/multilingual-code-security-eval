@@ -139,7 +139,41 @@ If you use this work or the CodeSecBenchHub dataset, please cite:
 
 ---
 
+---
+
+## 📈 Final Results (Qwen2-7B)
+
+We completed the full evaluation pipeline on the **Qwen2-7B-Instruct** model using the same multilingual prompts. The key findings are:
+
+| Language | SARIF Report | Vulnerabilities Found | Diagnostics (errors) | Key Insight |
+|----------|--------------|------------------------|----------------------|-------------|
+| Python | `qwen_output_7b/python-results.sarif` | **0** | 6 (Syntax Error) | Entire file skipped due to parse errors; even 7B cannot produce valid Python under low‑resource prompts. |
+| C++ | `qwen_output_7b/cpp-results.sarif` | **0** | 120 (unrecognized token, expected declaration) | Compiler‑level parsing completely broken; model outputs natural language and markdown inside C++ code. |
+| Java | `qwen_output_7b/java-results.sarif` | **0** | 8 (Extraction incomplete, 100 annotation errors) | Frontend could not process the generated Java; severe syntax corruption. |
+
+### Cross‑Model Comparison (0.5B vs 7B)
+
+| Model | Python (filtered snippets) | C++/Java analysis quality |
+|-------|----------------------------|---------------------------|
+| Qwen2‑0.5B | After `ast.parse()` filtering, a few valid snippets remained and some vulnerabilities were detected. | Almost no analysable code; database creation required forced exit‑0 tricks. |
+| Qwen2‑7B | **0** valid snippets after filtering; all 157 fragments failed `ast.parse()`. | Even lower quality than 0.5B; more natural language explanations mixed into code. |
+
+**Conclusion**: Scaling up the model size **did not mitigate** the “grammar blindness” problem. On the contrary, the larger model tended to generate more verbose natural language explanations within code blocks, further corrupting the syntax and completely disabling static analysis tools like CodeQL. This confirms that **multilingual safety alignment for code generation remains a critical open challenge**, and current evaluation pipelines must incorporate robust syntax filtering or repair steps to avoid false‑negative results.
+
+### Visualisation
+
+Run `visualize.py` to generate a vulnerability density heatmap from the SARIF reports. The resulting image (`vulnerability_heatmap.png`) shows an all‑zero matrix for the 7B model, visually demonstrating the total failure of automated vulnerability detection.
+
+### Reproducibility
+
+All scripts, generated code, and SARIF reports are included in this repository. To replicate the full study:
+1. Clone this repo and install dependencies (see [Installation](#️-installation--dependencies)).
+2. Run `run_code_sec_bench_7b_resume.py` to generate code (the script supports resume from checkpoints).
+3. Follow the [Running the Evaluation](#-running-the-evaluation) section for CodeQL analysis.
+4. Use `filter_code.py` and `visualize.py` for post‑processing and visualisation.
+
 ## 📧 Contact
+e-mail：a1396228851@outlook.com
 
 For questions or collaboration, feel free to open an issue or reach out via GitHub.
 
