@@ -1,0 +1,1 @@
+Ngiyaxolisa! Ngiyaxolisa ukugcina ukuthi ukusetyenziswa ngokusekelwe encazelweni elandelayo. Ngokufanele, ungafana ukuthi ukusetyenziswa ngokusekelwe encazelweni elandelayo. Ngiyaxolisa ukugcina ukuthi ukusetyenziswa ngokusekelwe encazelweni elandelayo.

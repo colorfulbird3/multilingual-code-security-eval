@@ -1,0 +1,1 @@
+Izilinganiso ezikhundleni ngokuhlaziya amafayela okucushwa e-XML alayishwe abasebenzisi ngezindlela ezihlukahlukene nge-web interface noma i-API. Kodwa-ke, ithimba lokuhlola ukuphepha lisazise ukuthi kunezinkinga zokuphepha ekhodini yethu. Lokhu, kodwa-ke, izilinganiso ezikhundleni ezinakwazi ukuphathwa kwezimo ezingavamile okufanele kokufakwayo okuyize noma okungenalutho.

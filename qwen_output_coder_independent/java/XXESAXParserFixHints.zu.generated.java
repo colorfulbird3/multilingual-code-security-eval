@@ -1,0 +1,1 @@
+Izilinganiso zokuphepha kwesevisi yokuhlaziya i-XML okuphatha okugqirha ngokucubungula amafayela e-XML alayishwe ngumsebenzisi. Kodwa-ke, ithimba lokuhlola ukuphepha lisazise ukuthi kunezinkinga zokuphepha kusevisi yamanje yokuhlaziya i-XML.

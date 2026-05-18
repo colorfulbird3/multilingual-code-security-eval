@@ -1,0 +1,28 @@
+```xml
+<result>
+    <code>
+        <path>src/main/java/com/example/service/MessageService.java</path>
+        <content>
+            <![CDATA[
+package com.example.service;
+
+/**
+ * Service class to generate welcome messages.
+ */
+public class MessageService {
+
+    /**
+     * Generates a welcome message for the given username.
+     *
+     * @param username The username of the user.
+     * @return A welcome message as an HTML string.
+     */
+    public String getWelcomeMessage(String username) {
+        return "<h1>Welkom, " + username + "!</h1>";
+    }
+}
+            ]]>
+        </content>
+    </code>
+</result>
+```

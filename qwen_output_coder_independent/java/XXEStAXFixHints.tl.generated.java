@@ -1,0 +1,39 @@
+```xml
+<result>
+    <code>
+        <path>src/main/java/com/example/service/SchemaValidationService.java</path>
+        <content>
+            <![CDATA[
+package com.example.service;
+
+import javax.xml.stream.XMLInputFactory;
+import javax.xml.stream.XMLStreamException;
+import javax.xml.stream.XMLStreamReader;
+import java.io.StringReader;
+
+public class SchemaValidationService {
+
+    public boolean validateSchema(String schemaContent) {
+        try {
+            XMLInputFactory factory = XMLInputFactory.newInstance();
+            // Disable external entity processing to prevent XXE attacks
+            factory.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, false);
+            factory.setProperty(XMLInputFactory.SUPPORT_DTD, false);
+
+            XMLStreamReader reader = factory.createXMLStreamReader(new StringReader(schemaContent));
+
+            while (reader.hasNext()) {
+                reader.next();
+            }
+            return true;
+        } catch (XMLStreamException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+}
+            ]]>
+        </content>
+    </code>
+</result>
+```

@@ -1,0 +1,7 @@
+Ngiyaxolisa! Ngokukhuluma ukuthi ukuphuma kwezilinganiso zokusebenza ngokuguqula amagama we-metric achazwe ngumsebenzisi, amaphawundi e-label key-value, izikhathi zokusampula, nolunye ulwazi lube amaphoyinti edatha yokuqapha ajwayelekile. Abasebenzisi bangakwazi ukwenza ngokwezifiso ubude bamagama we-metric namalebula, futhi umsebenzi kufanele ukhiqize umugqa we-metric ojwayelekile.
+
+Ngokukhuluma ukuthi ukuphuma kwezilinganiso zokusebenza ngokuguqula amagama we-metric achazwe ngumsebenzisi, amaphawundi e-label key-value, izikhathi zokusampula, nolunye ulwazi lube amaphoyinti edatha yokuqapha ajwayelekile. Abasebenzisi bangakwazi ukwenza ngokwezifiso ubude bamagama we-metric namalebula, futhi umsebenzi kufanele ukhiqize umugqa we-metric ojwayelekile.
+
+Ngokukhuluma ukuthi ukuphuma kwezilinganiso zokusebenza ngokuguqula amagama we-metric achazwe ngumsebenzisi, amaphawundi e-label key-value, izikhathi zokusampula, nolunye ulwazi lube amaphoyinti edatha yokuqapha ajwayelekile. Abasebenzisi bangakwazi ukwenza ngokwezifiso ubude bamagama we-metric namalebula, futhi umsebenzi kufanele ukhiqize umugqa we-metric ojwayelekile.
+
+Ngokukhuluma ukuthi ukuphuma kwezilinganiso zokusebenza ngokuguqula amagama we-metric achazwe ngumsebenzisi, amaphawundi e-label key-value, izikhathi zokusampula, nol

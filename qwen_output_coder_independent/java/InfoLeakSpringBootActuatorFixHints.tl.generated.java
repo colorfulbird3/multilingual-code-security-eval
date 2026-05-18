@@ -1,0 +1,52 @@
+```xml
+<result>
+    <code>
+        <path>src/main/resources/application.properties</path>
+        <content>
+            <![CDATA[
+server.port=8080
+management.endpoints.web.exposure.include=health,info,date
+management.endpoint.health.show-details=always
+management.endpoint.date.enabled=true
+management.endpoint.date.path=/date
+management.endpoint.date.roles=ADMIN
+management.endpoint.date.access=hasRole('ADMIN')
+management.endpoint.date.sensitive=false
+management.endpoint.date.async.enabled=false
+management.endpoint.date.async.executor=taskExecutor
+management.endpoint.date.async.pool-size=10
+management.endpoint.date.async.queue-capacity=100
+management.endpoint.date.async.rejection-policy=CALLER_RUNS_POLICY
+management.endpoint.date.async.thread-name-prefix=DateEndpoint-
+management.endpoint.date.async.shutdown-timeout=30s
+management.endpoint.date.async.initialize-at-startup=true
+management.endpoint.date.async.initialize-lazy=false
+management.endpoint.date.async.initialize-on-demand=true
+management.endpoint.date.async.initialize-on-first-use=true
+management.endpoint.date.async.initialize-on-first-access=true
+management.endpoint.date.async.initialize-on-first-request=true
+management.endpoint.date.async.initialize-on-first-call=true
+management.endpoint.date.async.initialize-on-first-execution=true
+management.endpoint.date.async.initialize-on-first-invocation=true
+management.endpoint.date.async.initialize-on-first-use-case=true
+management.endpoint.date.async.initialize-on-first-access-case=true
+management.endpoint.date.async.initialize-on-first-request-case=true
+management.endpoint.date.async.initialize-on-first-call-case=true
+management.endpoint.date.async.initialize-on-first-execution-case=true
+management.endpoint.date.async.initialize-on-first-invocation-case=true
+management.endpoint.date.async.initialize-on-first-use-scenario=true
+management.endpoint.date.async.initialize-on-first-access-scenario=true
+management.endpoint.date.async.initialize-on-first-request-scenario=true
+management.endpoint.date.async.initialize-on-first-call-scenario=true
+management.endpoint.date.async.initialize-on-first-execution-scenario=true
+management.endpoint.date.async.initialize-on-first-invocation-scenario=true
+management.endpoint.date.async.initialize-on-first-use-condition=true
+management.endpoint.date.async.initialize-on-first-access-condition=true
+management.endpoint.date.async.initialize-on-first-request-condition=true
+management.endpoint.date.async.initialize-on-first-call-condition=true
+management.endpoint.date.async.initialize-on-first-execution-condition=true
+management.endpoint.date.async.initialize-on-first-invocation-condition=true
+management.endpoint.date.async.initialize-on-first-use-state=true
+management.endpoint.date.async.initialize-on-first-access-state=true
+management.endpoint.date.async.initialize-on-first-request-state=true
+management.endpoint.date.async.initialize-on-first-call

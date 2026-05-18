@@ -12,3 +12,5 @@ codeql-win64.zip
 qwen_output.zip
 python-db/*-db/
 *.log
+codeql-linux64.zip
+multilingual-code-security-eval/

@@ -1,0 +1,1 @@
+Izidingo zokuphepha kwesevisi yokuhlaziya i-XML ngingakhulu ngokucubungula amafayela e-XML alayishwe abasebenzisi. Kodwa-ke, ithimba lokuhlola ukuphepha lisazise ukuthi kunezinkinga zokuphepha kusevisi yamanje yokuhlaziya i-XML. Lokhu, kodwa-ke, izilingo zokuphepha kwesevisi yokuhlaziya i-XML ngingakhulu ngokucubungula amafayela e-XML alayishwe abasebenzisi.

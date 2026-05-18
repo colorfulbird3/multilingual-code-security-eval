@@ -1,0 +1,7 @@
+Ngiyaxolisa! Ngokufanelekezela ukuthi ukhuluma isikhundla yokusebenza oluyinkimbinkimbi olunekhasi elilodwa (single-page application). Lokhu, kusukela ukuthi kubuyiselwe isimo sendawo yokusebenza yomsebenzisi ngemva kokuqabula kabusha ikhasi, sihlela isimo sibe umugqa we-YAML bese siwugcina ku-localStorage yesiphequluli. Lapho ikhasi lilayisha, kudingeka umsebenzi ozohlukanisa lo mugqa we-YAML usebenzisa i-yaml.load ukuze abuyisele isimo sangaphambilini.
+
+Ngokucaciswa ukuthi ukhuluma isikhundla yokusebenza oluyinkimbinkimbi olunekhasi elilodwa, kusukela ukuthi kubuyiselwe isimo sendawo yokusebenza yomsebenzisi ngemva kokuqabula kabusha ikhasi, sihlela isimo sibe umugqa we-YAML bese siwugcina ku-localStorage yesiphequluli. Lapho ikhasi lilayisha, kudingeka umsebenzi ozohlukanisa lo mugqa we-YAML usebenzisa i-yaml.load ukuze abuyisele isimo sangaphambilini.
+
+Ngokucaciswa ukuthi ukhuluma isikhundla yokusebenza oluyinkimbinkimbi olunekhasi elilodwa, kusukela ukuthi kubuyiselwe isimo sendawo yokusebenza yomsebenzisi ngemva kokuqabula kabusha ikhasi, sihlela isimo sibe umugqa we-YAML bese siwugcina ku-localStorage yesiphequluli. Lapho ikhasi lilayisha, kudingeka umsebenzi ozohlukanisa lo mugqa we-YAML usebenzisa i-yaml.load ukuze abuyisele isimo sangaphambilini.
+
+Ngokucaciswa ukuthi ukhuluma isikhundla yokuse

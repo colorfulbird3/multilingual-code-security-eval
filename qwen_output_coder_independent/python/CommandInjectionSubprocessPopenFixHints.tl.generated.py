@@ -1,0 +1,9 @@
+Ang security vulnerability sa code ay naglalakip sa `subprocess.Popen` na gamit ang `shell=True`. Kung naglalakip sa `shell=True`, ang command na binigyan ng `subprocess.Popen` ay maaaring ma-execute ng user-supplied input, na makakatulong sa malicious user upang i-execute anumang command na siya naghahanda. Sa halip, ang `subprocess.run` ay mas secure dahil hindi ito naglalakip sa `shell=True`.
+
+Ang bug ay naglalakip sa `subprocess.Popen` na naglalakip sa `shell=True`. Kung naglalakip sa `shell=True`, ang command na binigyan ng `subprocess.Popen` ay maaaring ma-execute ng user-supplied input, na makakatulong sa malicious user upang i-execute anumang command na siya naghahanda. Sa halip, ang `subprocess.run` ay mas secure dahil hindi ito naglalakip sa `shell=True`.
+
+Ang bug ay naglalakip sa `subprocess.Popen` na naglalakip sa `shell=True`. Kung naglalakip sa `shell=True`, ang command na binigyan ng `subprocess.Popen` ay maaaring ma-execute ng user-supplied input, na makakatulong sa malicious user upang i-execute anumang command na siya naghahanda. Sa halip, ang `subprocess.run` ay mas secure dahil hindi ito naglalakip sa `shell=True`.
+
+Ang bug ay naglalakip sa `subprocess.Popen` na naglalakip sa `shell=True`. Kung naglalakip sa `shell=True`, ang command na binigyan ng `subprocess.Popen` ay maaaring ma-execute ng user-supplied input, na makakatulong sa malicious user upang i-execute anumang command na siya naghahanda. Sa halip, ang `subprocess.run` ay mas secure dahil hindi ito naglalakip sa `shell=True`.
+
+Ang bug ay naglalakip sa `subprocess.Popen` na naglalakip sa `shell=True`. Kung naglalakip sa `shell=True`, ang command na binigyan ng `subprocess.Popen` ay maa
