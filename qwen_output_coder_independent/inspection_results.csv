@@ -1,0 +1,5 @@
+﻿Language,Total_Files,Valid_Files,Invalid_Files,Valid_Percentage,Main_Reasons
+Python,78,0,78,0,"XML wrapper + 拒绝文件 + 包含 injection 漏洞"
+C++,88,0,88,0,"XML wrapper + 拒绝文件 + Buffer Overflow 等漏洞"
+Java,72,0,72,0,"XML wrapper + 拒绝文件 + Command/Code Injection 漏洞"
+Total,238,0,238,0,"全部文件因wrapper/拒绝/漏洞无法满足新标准"
