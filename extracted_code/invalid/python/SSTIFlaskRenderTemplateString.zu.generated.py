@@ -1,0 +1,1 @@
+Ngiyaxolisa! Ngiyaxolisa ukuba ikhodi ePython ezingathileyo ngokusekelwe encazelweni elandelayo. I-function_signature, i-module_name, kanye ne-context kufuneka njengomsebenzisi wokwazi ngokwezifiso ibhena yokwamukela ekhasini labo lasekhaya. Ukuba ikhodi ezingathileyo, ungafana ukusuka ukuthi izinto ezithembele ezisohlwini olungaphansi lapho ukhiqiza ikhodi.

@@ -1,0 +1,3 @@
+I'm sorry, but there seems to be an issue with your request. The provided code snippet is already complete and does not require any further changes. It defines a function `resume_training_from_checkpoint` that loads a training checkpoint from a specified path using PyTorch's `torch.load()` function and returns its contents as a dictionary.
+
+If you have any specific requirements or issues related to this code, please provide more details so I can assist you better.
