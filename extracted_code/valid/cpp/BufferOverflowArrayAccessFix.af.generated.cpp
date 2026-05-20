@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+
+/**
+ * Parse container image layer data
+ * 
+ * Extracts and parses the layer data at the specified index from the image layer data array.
+ * This implementation contains specific vulnerabilities for security testing.
+ */
+int parse_container_layers(char** layer_data, int layer_count, int layer_index, int max_layer_size) {
+    if (layer_data == NULL) {
+        return -1;
+    }
+
+    /* 
+     * Vulnerability 1: Missing boundary check for layer_index (CWE-129)
+     * Directly uses externally provided index to access array, potentially causing out-of-bounds access.
+     */
+    if (layer_index < 0 || layer_index >= layer_count) {
+        return -1;  // Add boundary check for layer_index
+    }
+    char* target_layer = layer_data[layer_index];
+
+    /* 
+     * Vulnerability 2: Stack-based buffer overflow (CWE-

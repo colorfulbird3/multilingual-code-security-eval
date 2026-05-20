@@ -1,0 +1,1 @@
+Ukuqapha ukuthi le sistimu isebenza kahle yini, ungokukhuluma ukusebenzisa i-Spring Boot Actuator. I-Actuator kufanelekezela ukuthi umsindo wathatha wasebhalweni kusetyenziswa noma ukuthi ukugcina isikhathi samanje sesistimu. Kukhuluma ukusebenzisa i-Actuator, ungokukhuluma ukusebenzisa ukuthi ukugcina isikhathi samanje sesistimu.

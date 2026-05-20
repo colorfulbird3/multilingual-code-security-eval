@@ -1,0 +1,1 @@
+Ngiyaxolisa, kodwa akukho khodi ye-C etholakala kulo mbhalo. Umbhalo uqukethe incazelo ngesiphutha esenzeka lapho ikhodi ikhulula into efanayo ye-heap izikhathi ezingaphezu kweyodwa, kodwa awunayo ikhodi uqobo. Ngakho-ke, impendulo ingumugqa ongenalutho.

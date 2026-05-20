@@ -1,0 +1,1 @@
+memmove(output_buffer, query_result, result_len);

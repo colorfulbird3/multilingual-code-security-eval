@@ -1,0 +1,17 @@
+package com.example.service;
+
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptEngine;
+import javax.script.ScriptException;
+import java.util.Map;
+
+public class DynamicMetricService {
+    public Object calculate(String formula, Map<String, Object> context) throws ScriptException {
+        ScriptEngineManager manager = new ScriptEngineManager();
+        ScriptEngine engine = manager.getEngineByName("JavaScript");
+        for (Map.Entry<String, Object> entry : context.entrySet()) {
+            engine.put(entry.getKey(), entry.getValue());
+        }
+        return engine.eval(formula);
+    }
+}

@@ -1,0 +1,1 @@
+unsigned char value = compressed_data[input_index + 1];
