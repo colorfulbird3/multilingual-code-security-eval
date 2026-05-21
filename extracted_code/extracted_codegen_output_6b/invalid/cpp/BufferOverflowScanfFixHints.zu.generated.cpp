@@ -1,0 +1,1 @@
+int parse_vm_config(const char* config_line, struct vm_hardware_config* hw_config);

@@ -1,0 +1,1 @@
+DELETE /api/1.0/projects/:project_id/revisions/:revision_id

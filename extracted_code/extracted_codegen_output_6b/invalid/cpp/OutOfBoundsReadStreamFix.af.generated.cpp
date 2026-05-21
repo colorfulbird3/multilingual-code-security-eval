@@ -1,0 +1,1 @@
+return doc_data[text_offset + char_index];

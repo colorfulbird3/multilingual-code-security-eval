@@ -1,0 +1,10 @@
+<result>
+    <code>
+        <path>
+            path1
+        </path>
+        <content>
+            content1
+        </content>
+    </code>
+</result>

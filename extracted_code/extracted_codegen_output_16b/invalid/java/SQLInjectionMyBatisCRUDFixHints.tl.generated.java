@@ -1,0 +1,1 @@
+I don't see any code in your message. You only provided a file path: `src/main/resources/mappers/ProductMapper.java`. Please provide the actual code content you'd like me to extract.

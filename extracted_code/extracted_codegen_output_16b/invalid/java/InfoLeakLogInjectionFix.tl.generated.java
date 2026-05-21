@@ -1,0 +1,1 @@
+I-output atas ng sample para sa pagproseso ng profile ng user sa `src/main/java/com/example/core/service/UserProfileService.java` upang may-may kaya:

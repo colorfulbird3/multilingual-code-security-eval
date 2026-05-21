@@ -1,0 +1,26 @@
+->compression_type == 1) {
+        // Placeholder for RLE decompression logic
+        // ...
+        if (/* decompression failed */) {
+            free(ctx->temp_buffer);
+            goto error_handler;
+        }
+    } else {
+        free(ctx->temp_buffer);
+        goto error_handler;
+    }
+
+    unsigned char checksum = compressed_data[data_size - 1];
+    // Placeholder for checksum verification logic
+    // ...
+    if (/* checksum verification failed */) {
+        free(ctx->temp_buffer);
+        goto error_handler;
+    }
+
+    return 0;
+
+error_handler:
+    ctx->temp_buffer = NULL;
+    return -1;
+}

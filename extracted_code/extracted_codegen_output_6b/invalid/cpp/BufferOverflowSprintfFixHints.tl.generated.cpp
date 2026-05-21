@@ -1,0 +1,4 @@
+1. Ang pag-format sa pagina ng monitoring system sa gabuano na pagina sa isang isa-sasay-sasayin nang malalan ng pag-format ng tagumpay, at isang pag-format nang gunitos na pagina sa isang isa-sasay-sasayin nang malalan ng pag-format.
+2. Ang pag-format nang gunitos na pagina sa isang isa-sasay-sasayin nang malalan ng pag-format, at isang pag-format nang gunitos na pagina sa isa-sasay-sasayin nang malalan ng pag-format.
+3. Ang pag-format sa pagina ng monitoring system sa gabuano na pagina sa isang isa-sasay-sasayin nang malalan ng pag-format, at isang pag-format nang gunitos na pagina sa isa-sasay-sasayin nang malalan ng pag-format.
+4. Ang pag-format nang gunitos na pagina ng monitoring system sa gabuano na pagina sa isang isa-sasay-sasayin nang malalan ng pag-format, at isang pag-format nang gunitos na pagina sa isa-sasay-sasayin nang malalan ng pag-format.

@@ -1,0 +1,8 @@
+DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+factory.setFeature("http://xml.org/sax/features/external-general-entities", false);
+factory.setFeature("http://xml.org/sax/features/external-parameter-entities", false);
+factory.setXIncludeAware(false);
+factory.setExpandEntityReferences(false);
+DocumentBuilder builder = factory.newDocumentBuilder();
+Document document = builder.parse(new InputSource(new StringReader(xmlData)));

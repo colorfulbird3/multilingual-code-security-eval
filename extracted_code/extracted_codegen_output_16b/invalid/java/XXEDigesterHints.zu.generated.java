@@ -1,0 +1,1 @@
+public <T> T load(Class<T> klass)

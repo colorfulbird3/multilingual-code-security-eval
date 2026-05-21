@@ -1,0 +1,1 @@
+Isembezi okunikezwe umsebenzise okuyihlanza ekukho ekukho ezokuphezisa.

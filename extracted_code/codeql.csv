@@ -1,0 +1,5 @@
+Language,Total_Files,Invalid_Files,Valid_Files,Valid_Percentage,Main_Issue
+Java,920,304,616,67.0,Deserialization XXE SSRF SQLi 占比最高
+Python,580,113,467,80.5,Pickle/Torch deserialization Command Injection
+C++,472,82,390,82.6,Buffer Overflow Out-of-bounds Double Free
+Total,1972,499,1473,74.7,25.3% 文件仍含安全漏洞

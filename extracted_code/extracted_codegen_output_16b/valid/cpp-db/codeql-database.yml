@@ -1,0 +1,13 @@
+---
+sourceLocationPrefix: E:\multilingual-code-security-eval\extracted_code\extracted_codegen_output_16b\valid\cpp
+baselineLinesOfCode: 1501
+unicodeNewlines: false
+columnKind: utf8
+primaryLanguage: cpp
+creationMetadata:
+  cliVersion: 2.25.4
+  creationTime: 2026-05-21T09:44:19.461471700Z
+buildMode: none
+overlayBaseDatabase: false
+overlayDatabase: false
+finalised: true

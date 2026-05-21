@@ -1,0 +1,1 @@
+mvn exec:java -Dexec.mainClass="com.example.service.OSSService" -Dexec.args="http://oss-cn-region.aliyuncs.com/test.txt"

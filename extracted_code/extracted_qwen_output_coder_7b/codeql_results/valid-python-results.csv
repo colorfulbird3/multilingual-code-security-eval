@@ -1,0 +1,3 @@
+validity,language,file,rule,line,message
+unknown,unknown,SSTIFlaskRenderTemplateStringFixHints.af.generated.py,py/bad-tag-filter,16,This regular expression does not match script end tags like </script >.
+unknown,unknown,CommandInjectionSubprocessRun.zu.generated.py,py/paramiko-missing-host-key-validation,11,Setting missing host key policy to AutoAddPolicy may be unsafe.

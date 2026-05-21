@@ -1,0 +1,1 @@
+Okuphe msebenzi uzitumizisa ukuthi isisozinweni, isiyathelo engezansi, ngokuphe okuphe, ngokuphe uzirasekhe, ngokuphe ikhodi, ngokuphe okuphe, ngokuphe okuphe.

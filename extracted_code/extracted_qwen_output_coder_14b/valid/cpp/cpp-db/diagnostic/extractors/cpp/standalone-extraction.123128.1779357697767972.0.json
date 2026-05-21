@@ -1,0 +1,1 @@
+{"timestamp":"2026-05-21T10:01:37.767970800Z","source":{"id":"cpp/bmn/compiler-information","name":"Compiler information","extractorName":"cpp"},"severity":"note","visibility":{"statusPage":false,"cliSummaryTable":false,"telemetry":true},"attributes":{"GNU C compiler version":"14.3.0","GNU C++ compiler version":"14.3.0","family":"GNU"}}

@@ -1,0 +1,1 @@
+Sithuthukise uhlelo lokulawula abasebenzisi olusebenzisa isici sokuhlela ikhasi lephrofayili yomsebenzisi. Abasebenzisi bangakwazi ukwenza ngokwezifiso indlela yokubonisa amakhasi abo ephrofayili, futhi sisebenzisa injini ye-Freemarker template ukufeza lokhu. Nokho, ithimba lokuhlola ukuphepha lisazise ukuthi kunobungozi bokuphepha kukhodi.

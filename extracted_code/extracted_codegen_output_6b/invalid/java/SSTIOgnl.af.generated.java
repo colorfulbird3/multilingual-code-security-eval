@@ -1,0 +1,18 @@
+```xml
+<user>
+    <name>
+        name1
+    </name>
+    <email>
+        email1
+    </email>
+    <profile>
+        <role>
+            role1
+        </role>
+        <active>
+            false
+        </active>
+    </profile>
+</user>
+```

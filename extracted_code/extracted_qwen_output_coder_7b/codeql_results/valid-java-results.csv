@@ -1,0 +1,6 @@
+validity,language,file,rule,line,message
+unknown,unknown,ZipSlip.af.generated.java,java/zipslip,33,"Unsanitized archive entry, which may contain '..', is used in a [file system operation](1).
+Unsanitized archive entry, which may contain '..', is used in a [file system operation](2)."
+unknown,unknown,OpenRedirectServlet.af.generated.java,java/unvalidated-url-redirection,12,Untrusted URL redirection depends on a [user-provided value](1).
+unknown,unknown,SSRFURLConnection.af.generated.java,java/polynomial-redos,47,This [regular expression](1) that depends on a [user-provided value](2) may run slow on strings starting with '<title>' and with many repetitions of '<title>a'.
+unknown,unknown,SSRFURLConnection.af.generated.java,java/polynomial-redos,56,"This [regular expression](1) that depends on a [user-provided value](2) may run slow on strings starting with '<meta name=""description"" content=""' and with many repetitions of '<meta name=""description"" content=""a'."

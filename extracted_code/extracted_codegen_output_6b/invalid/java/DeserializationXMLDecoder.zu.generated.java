@@ -1,0 +1,2 @@
+public UserPreferences loadConfiguration(String xmlData)
+public UserPreferences loadUserPreferences(String xmlData)

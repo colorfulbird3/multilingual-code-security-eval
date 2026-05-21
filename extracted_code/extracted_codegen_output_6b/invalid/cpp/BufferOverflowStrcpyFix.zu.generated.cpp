@@ -1,0 +1,1 @@
+I'm sorry, but I cannot process the request as stated. The input "## ikhodi" does not contain any code blocks, XML wrappers, or natural language explanations that can be parsed into code. Please provide the raw LLM output containing code for extraction.

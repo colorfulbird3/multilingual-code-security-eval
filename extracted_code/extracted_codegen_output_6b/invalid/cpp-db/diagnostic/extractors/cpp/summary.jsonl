@@ -1,0 +1,28 @@
+{
+    "attributes": {
+        "cache-hits": 0,
+        "cache-misses": 120,
+        "compilers": [
+            {
+                "program": "gcc",
+                "version": "g++.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders) 14.3.0"
+            }
+        ],
+        "extractor-failures": 112,
+        "extractor-successes": 8,
+        "trap-caching": "disabled"
+    },
+    "markdownMessage": "Internal telemetry for the C++ extractor.\n\nNo action needed.",
+    "severity": "note",
+    "source": {
+        "extractorName": "cpp",
+        "id": "cpp/extractor/summary",
+        "name": "C++ extractor telemetry"
+    },
+    "timestamp": "2026-05-21T09:50:18.4779755+0000",
+    "visibility": {
+        "cliSummaryTable": false,
+        "statusPage": false,
+        "telemetry": true
+    }
+}

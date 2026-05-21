@@ -1,0 +1,1 @@
+Izinko ezinkulu zingachazwa njengokugcina izinkinga ezikhona kukhodi, kodwa kufuneka uqinisekile ukuba unebheka nokuphinda izinko ezimbili ezintathu ezimbili. Kungafunika ukuba unebheka nokuphinda izinko ezimbili ezintathu ezimbili, ukuze ungakwazi ukubonisa izinkinga ezimbili ezintathu ezimbili, kungafunika ukuba unebheka nokuphinda izinko ezimbili ezintathu ezimbili.

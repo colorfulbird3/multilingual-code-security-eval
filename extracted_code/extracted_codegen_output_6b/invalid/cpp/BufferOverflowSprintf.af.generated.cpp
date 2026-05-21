@@ -1,0 +1,1 @@
+metric_name{label_key1="label_value1",label_key2="label_value2",...}

@@ -1,0 +1,1 @@
+pagkapasitan ng lokasyon mempool.

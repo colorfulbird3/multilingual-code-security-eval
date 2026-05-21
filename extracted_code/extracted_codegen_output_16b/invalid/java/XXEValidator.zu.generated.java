@@ -1,0 +1,2 @@
+DocumentBuilder builder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+Document doc = builder.parse(new File("/Users/andrew/Documents/workspace/Java/webcrawler/src/main/java/com/example/service/ConfigService.java"));

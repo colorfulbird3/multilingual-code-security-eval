@@ -1,0 +1,1 @@
+#endif /* COMPRESSION_TOOL_H */

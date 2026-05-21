@@ -1,0 +1,3 @@
+{"timestamp":"2026-05-21T18:03:45.6742373+08:00","source":{"id":"cli/file-coverage-baseline","name":"File coverage baseline telemetry"},"visibility":{"cliSummaryTable":false,"statusPage":false,"telemetry":true},"attributes":{"durationMilliseconds":94}}
+{"timestamp":"2026-05-21T18:03:45.6773997+08:00","source":{"id":"cli/platform","name":"Platform"},"visibility":{"cliSummaryTable":false,"statusPage":false,"telemetry":true},"attributes":{"name":"Windows 11","version":"10.0","arch":"amd64"}}
+{"timestamp":"2026-05-21T18:03:45.6819101+08:00","source":{"id":"cli/build-mode","name":"Database build mode"},"visibility":{"cliSummaryTable":false,"statusPage":false,"telemetry":true},"attributes":{"buildMode":"none"}}

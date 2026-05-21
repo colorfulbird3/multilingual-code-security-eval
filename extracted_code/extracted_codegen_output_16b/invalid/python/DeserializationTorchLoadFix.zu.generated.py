@@ -1,0 +1,1 @@
+training_checkpoint_handler.resume_training_from_checkpoint_from_file(path)

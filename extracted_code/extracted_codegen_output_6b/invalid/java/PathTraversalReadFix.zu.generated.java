@@ -1,0 +1,16 @@
+<servlet>
+        <servlet-name>FileService</servlet-name>
+        <servlet-class>com.example.service.FileService</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>FileService</servlet-name>
+    <url-pattern>/file/*</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>FileService</servlet-name>
+    <servlet-class>com.example.service.FileService</servlet-class>
+    <init-param>
+        <param-name>path</param-name>
+        <param-value>/tmp/upload/</param-value>
+    </init-param>
+</servlet>

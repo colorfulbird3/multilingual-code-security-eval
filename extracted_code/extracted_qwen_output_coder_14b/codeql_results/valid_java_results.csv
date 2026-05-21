@@ -1,0 +1,7 @@
+validity,language,file,rule,line,message
+valid,java,ZipSlip.af.generated.java,java/zipslip,22,"Unsanitized archive entry, which may contain '..', is used in a [file system operation](1).
+Unsanitized archive entry, which may contain '..', is used in a [file system operation](2).
+Unsanitized archive entry, which may contain '..', is used in a [file system operation](3)."
+valid,java,WeakCryptoAESECB.zu.generated.java,java/weak-cryptographic-algorithm,21,"Cryptographic algorithm [AES/ECB/PKCS5Padding](1) is insecure. ECB mode, as in AES/ECB/NoPadding for example, is vulnerable to replay and other attacks. Consider using GCM instead."
+valid,java,WeakCryptoAESECB.zu.generated.java,java/weak-cryptographic-algorithm,29,"Cryptographic algorithm [AES/ECB/PKCS5Padding](1) is insecure. ECB mode, as in AES/ECB/NoPadding for example, is vulnerable to replay and other attacks. Consider using GCM instead."
+valid,java,OpenRedirectServlet.af.generated.java,java/unvalidated-url-redirection,19,Untrusted URL redirection depends on a [user-provided value](1).

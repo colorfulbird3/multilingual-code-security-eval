@@ -1,0 +1,31 @@
+package com.example.service;
+
+import com.caucho.hessian.io.Hessian2Input;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+
+public class HessianService {
+    
+    public Object deserializeUserData(byte[] serializedData) throws IOException {
+        if (serializedData == null || serializedData.length == 0) {
+            throw new IllegalArgumentException("Serialized data cannot be empty");
+        }
+        
+        ByteArrayInputStream bis = new ByteArrayInputStream(serializedData);
+        Hessian2Input hessianInput = new Hessian2Input(bis);
+        
+        try {
+            Object result = hessianInput.readObject();
+            return result;
+        } catch (Exception e) {
+            throw new IOException("Deserialization failed: " + e.getMessage(), e);
+        } finally {
+            try {
+                hessianInput.close();
+                bis.close();
+            } catch (IOException e) {
+                // Ignore exceptions during closing
+            }
+        }
+    }
+}

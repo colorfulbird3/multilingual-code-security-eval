@@ -1,0 +1,20 @@
+```xml
+<result>
+    <violations>
+        <violation>
+            <path>
+                path1
+            </path>
+            <linenum>
+                line1
+            </linenum>
+            <column>
+                column1
+            </column>
+            <message>
+                message1
+            </message>
+        </violation>
+    </violations>
+</result>
+```

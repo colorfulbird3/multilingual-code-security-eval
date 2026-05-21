@@ -1,0 +1,1 @@
+{"timestamp":"2026-05-21T09:53:27.430079700Z","source":{"id":"cpp/bmn/overlay-information","name":"Overlay information","extractorName":"cpp"},"severity":"note","visibility":{"statusPage":false,"cliSummaryTable":false,"telemetry":true},"attributes":{"overlay_mode":"full","overlay_support_enabled":false}}

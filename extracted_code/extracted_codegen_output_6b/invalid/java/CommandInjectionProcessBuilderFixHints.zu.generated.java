@@ -1,0 +1,1 @@
+Umqalise kuphenenye ukuthi bokupele nga nye-ekumene:

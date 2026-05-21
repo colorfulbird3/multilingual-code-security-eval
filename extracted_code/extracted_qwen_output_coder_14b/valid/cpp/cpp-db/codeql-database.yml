@@ -1,0 +1,13 @@
+---
+sourceLocationPrefix: E:\multilingual-code-security-eval\extracted_code\extracted_qwen_output_coder_14b\valid\cpp
+baselineLinesOfCode: 3737
+unicodeNewlines: false
+columnKind: utf8
+primaryLanguage: cpp
+creationMetadata:
+  cliVersion: 2.25.4
+  creationTime: 2026-05-21T10:01:34.998095700Z
+buildMode: none
+overlayDatabase: false
+overlayBaseDatabase: false
+finalised: true

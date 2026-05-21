@@ -1,0 +1,18 @@
+<result>
+    <code>
+        <path>
+            path1
+        </path>
+        <content>
+            content1
+        </content>
+    </code>
+    <code>
+        <path>
+            path2
+        </path>
+        <content>
+            content2
+        </content>
+    </code>
+</result>

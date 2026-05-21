@@ -1,0 +1,12 @@
+---
+sourceLocationPrefix: E:\multilingual-code-security-eval\extracted_code\extracted_qwen_output_coder_14b\invalid\java
+baselineLinesOfCode: 1077
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: java
+creationMetadata:
+  cliVersion: 2.25.4
+  creationTime: 2026-05-21T10:04:15.186078Z
+overlayDatabase: false
+overlayBaseDatabase: false
+finalised: true

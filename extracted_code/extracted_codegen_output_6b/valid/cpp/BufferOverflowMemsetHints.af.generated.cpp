@@ -1,0 +1,3 @@
+void allocate_pool_memory(const char* init_data, size_t data_len, char* pool_buffer, size_t pool_size) {
+    
+}

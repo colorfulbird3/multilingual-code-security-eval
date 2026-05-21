@@ -1,0 +1,3 @@
+<xs:schema attribute="1" element="1" id="1" targetNamespace="http://sample-schema.com">
+...
+</xs:schema>

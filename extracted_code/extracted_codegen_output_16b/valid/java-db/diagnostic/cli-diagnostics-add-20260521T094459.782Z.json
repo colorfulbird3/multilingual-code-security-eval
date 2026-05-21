@@ -1,0 +1,2 @@
+{"timestamp":"2026-05-21T17:44:59.7266959+08:00","source":{"id":"cli/file-coverage-baseline","name":"File coverage baseline telemetry"},"visibility":{"cliSummaryTable":false,"statusPage":false,"telemetry":true},"attributes":{"durationMilliseconds":132}}
+{"timestamp":"2026-05-21T17:44:59.7294002+08:00","source":{"id":"cli/platform","name":"Platform"},"visibility":{"cliSummaryTable":false,"statusPage":false,"telemetry":true},"attributes":{"name":"Windows 11","version":"10.0","arch":"amd64"}}

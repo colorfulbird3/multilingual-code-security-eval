@@ -1,0 +1,2 @@
+validity,language,file,rule,line,message
+valid,java,OpenRedirectServletFix.zu.generated.java,java/unvalidated-url-redirection,31,Untrusted URL redirection depends on a [user-provided value](1).

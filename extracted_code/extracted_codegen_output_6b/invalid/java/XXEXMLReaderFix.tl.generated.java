@@ -1,0 +1,1 @@
+LSInput isang LSInput = new LSInput("UTF-8", "xmlFileName.xml", "file:///...");
