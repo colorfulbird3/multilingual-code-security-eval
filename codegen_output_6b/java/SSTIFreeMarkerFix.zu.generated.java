@@ -1,0 +1,22 @@
+
+
+## Amahe
+- Umlelohle kwetlile kufanele ukuele ekite ukule kwetlohle
+- Tafari kwetlohle kwetlohle kwetlohle
+- Lwe-HTML-Tafari kwetlohle kwetlohle
+- Kupyokle kwetlohle kwetlohle
+- Umlele kwetlohle kwetlohle
+- Omhele kwetlohle kwetlohle
+- Elegitweni kwetlohle kwetlohle
+- Umahe kwetlohle kwetlohle
+- Ukule kwetlohle kwetlohle
+- Ngokwele kwetlohle kwetlohle
+- Osekwele kwetlohle kwetlohle
+- Ukwele kwetlohle kwetlohle
+- Okwuze kwetlohle kwetlohle
+- Nokwele kwetlohle kwetlohle
+- Esebele kwetlohle kwetlohle
+- Nokwele kwetlohle kwetlohle
+- Ekegonde kwetlohle kwetlohle
+- Okwelwe kwetlohle kwetlohle
+- Ukwelwe kwetlohle kwetlohle

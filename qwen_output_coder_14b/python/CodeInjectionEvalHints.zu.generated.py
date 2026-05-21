@@ -1,0 +1,3 @@
+allowed_keys = ['id', 'name', 'age']
+```
+```

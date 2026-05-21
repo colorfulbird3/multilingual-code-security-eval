@@ -1,0 +1,6 @@
+ane kuwa ukuthi ingavumelekile.
+     * Ukufanda kwemanje kwememori:
+     *   Ukuthi yokusebenza kwememori kw'obucacile kufanele kuqinisekiswe ngaphambi kokufunwa okungaphandle kwemanje okunga.
+     *   Ukuthi yokusebenza kwememori kw'obucacile kufanele ngaphansi.
+     *
+     * Okubo ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga, okunga lwe ukuthi inkwenga ng'ombe wa-okuhlelwa kwemanje okunga,

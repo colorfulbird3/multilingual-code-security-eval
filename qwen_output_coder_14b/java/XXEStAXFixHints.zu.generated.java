@@ -1,0 +1,1 @@
+Umsebenzi wokuqinisekisa i-XML Schema wathunywa ngenxa yokufuneka ukusiza ukuthi kunobungozi be-XXE kukhodi. Kugcineni, kodwa kodwa kufuneka ungamini ukuthi uthi umsebenzi wokuqinisekisa i-XML Schema. Ungakhululeke ukuthi uthi ukuthi kodwa kufuneka ungamini ukuthi uthi umsebenzi wokuqinisekisa i-XML Schema.

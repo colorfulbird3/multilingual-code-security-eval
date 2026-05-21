@@ -1,0 +1,23 @@
+```xml
+<result>
+    <code>
+        <path>
+            src/main/resources/application.properties
+        </path>
+        <content>
+            <![CDATA[
+server.port=8080
+spring.datasource.url=jdbc:mysql://localhost:3306/mydatabase
+spring.datasource.username=myuser
+spring.datasource.password=mypassword
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
+logging.level.org.springframework.web=DEBUG
+logging.level.org.hibernate=ERROR
+            ]]>
+        </content>
+    </code>
+</result>
+```

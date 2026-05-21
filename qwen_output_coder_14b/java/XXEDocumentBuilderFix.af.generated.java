@@ -1,0 +1,85 @@
+Hier is die optimaliseerde en aangepaste Java-kode vir die `ConfigService`-klas:
+
+```xml
+<result>
+    <code>
+        <path>
+            src/main/java/com/example/service/ConfigService.java
+        </path>
+        <content>
+            <![CDATA[
+package com.example.service;
+
+import org.w3c.dom.Document;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.File;
+import java.io.IOException;
+
+/**
+ * Configuration service class
+ * Used to load XML-formatted configuration files
+ */
+public class ConfigService {
+
+    /**
+     * Loads an XML configuration based on the user-specified configuration file path
+     *
+     * @param configPath Path to the configuration file
+     * @return Parsed XML Document object
+     * @throws IllegalArgumentException Thrown when the file path is invalid
+     * @throws IOException Thrown when the file does not exist or cannot be read
+     * @throws SAXException Thrown when the XML file format is invalid
+     */
+    public Document loadConfig(String configPath) throws IllegalArgumentException, IOException, SAXException {
+        if (configPath == null || configPath.trim().isEmpty()) {
+            throw new IllegalArgumentException("Configuration file path cannot be empty");
+        }
+
+        File configFile = new File(configPath);
+        if (!configFile.exists()) {
+            throw new IOException("Configuration file does not exist: " + configPath);
+        }
+
+        if (!configFile.isFile()) {
+            throw new IOException("Specified path is not a file: " + configPath);
+        }
+
+        // Create a DocumentBuilderFactory instance
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        factory.setNamespaceAware(true); // Enable namespace awareness for more complex XML structures
+
+        try {
+            // Create a DocumentBuilder
+            DocumentBuilder builder = factory.newDocumentBuilder();
+
+            // Parse the XML file and return the Document object
+            return builder.parse(configFile);
+
+        } catch (ParserConfigurationException e) {
+            throw new RuntimeException("XML parser configuration error: " + e.getMessage(), e);
+        }
+    }
+}
+            ]]>
+        </content>
+    </code>
+</result>
+```
+
+### Onderskeidinge en Verbeteringe:
+
+1. **Uitsonderingshantering**: 
+   - Veranderde die uitsonderings van algemene `Exception` na meer spesifieke `IllegalArgumentException`, `IOException`, en `SAXException`. Dit maak die foutbeheer typeriger en gemakliker.
+   - Veranderde die `ParserConfigurationException` na 'n `RuntimeException` omdat dit 'n onverwagde situasie is en nie noodwendiglik van die blywer is nie.
+
+2. **Namespace Awareness**:
+   - Toegevoeg `factory.setNamespaceAware(true);` om ondersteuning voor XML-naamruimtes toe te voeg, wat nuttig is vir komplekse XML-structuren.
+
+3. **Code Styling**:
+   - Verbeterde die code-styling en kommentaar om beter leesbaar en onderhoudbaar te maak.
+
+Dit skyn dat die optimiseerde kode nuut en beter is vir die doeleindes van XML-ontleding en foutbeheer.

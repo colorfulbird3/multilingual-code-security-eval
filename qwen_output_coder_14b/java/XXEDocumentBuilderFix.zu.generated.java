@@ -1,0 +1,1 @@
+Lesevisi yokucushwa e-XML liyathuthukiswa kwezazinga ezimbili ezindaweni ezilimiyo. Lokhu kuvamile noma abasebenzisi balayisha amafayela e-XML ngezindlela ezihlukahlukene nge-web interface noma i-API. Isisekelo sokucubungula nokukhipha idatha ye-XML okulandelayo. Ikhodi idinga ukwenziwa kahle nokuthuthukiswa.

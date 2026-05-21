@@ -14,3 +14,11 @@ python-db/*-db/
 *.log
 codeql-linux64.zip
 multilingual-code-security-eval/
+codegen_6b_env/
+codegen_env/
+codegen_16b_env/
+*-db/
+*.safetensors
+*.bin
+*.zip
+*.log

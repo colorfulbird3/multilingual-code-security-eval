@@ -1,0 +1,7 @@
+Nginga, kuvumela ukufuneka ukhombisa uthando olukhulu. Ukuze ukuphinda umsebenzi wakho, kungafaniwe ukubiza ukuthi kubuyiselwe isimo sendawo yokusebenza yomsebenzisi ngemva kokuqabula ikhasi, sihlela isimo sibe yintambo ye-YAML bese siyigcina ku-localStorage yesiphequluli. Lapho ikhasi lilayisha, umsebenzi uyadingeka ukuze kuhlaziywe le ntambo ye-YAML kusetshenziswa `yaml.load` ukuze kubuyiselwe isimo sangaphambilini.
+
+Ngokwesinye, kungafaniwe ukubiza ukuthi kubuyiselwe isimo sendawo yokusebenza yomsebenzisi ngemva kokuqabula ikhasi, sihlela isimo sibe yintambo ye-YAML bese siyigcina ku-localStorage yesiphequluli. Lapho ikhasi lilayisha, umsebenzi uyadingeka ukuze kuhlaziywe le ntambo ye-YAML kusetshenziswa `yaml.load` ukuze kubuyiselwe isimo sangaphambilini.
+
+Ngokwesinye, kungafaniwe ukubiza ukuthi kubuyiselwe isimo sendawo yokusebenza yomsebenzisi ngemva kokuqabula ikhasi, sihlela isimo sibe yintambo ye-YAML bese siyigcina ku-localStorage yesiphequluli. Lapho ikhasi lilayisha, umsebenzi uyadingeka ukuze kuhlaziywe le ntambo ye-YAML kusetshenziswa `yaml.load` ukuze kubuyiselwe isimo sangaphambilini.
+
+Ngokwesinye, kungafaniwe ukubiza ukuthi kubuyiselwe isimo sendawo yokusebenza yomsebenzisi ngemva kokuqabula ikhasi, sihlela isimo sibe yintambo ye-YAML bese siyigcina ku-localStorage yesiphequluli. Lapho ikhasi lilayisha, umsebenzi uyadingeka ukuze kuhlaziywe le ntambo ye-YAML kusetshenziswa `yaml.load` ukuze kubuyiselwe isimo sangaphambilini.

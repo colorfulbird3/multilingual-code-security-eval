@@ -1,0 +1,2 @@
+-12-31")`
+- Qoqa ngemkhakha wokuqoqa: `getSalesByGroup("region", "2024-01-01,2024-06-30", "2024-07-01,2024-12-31")`

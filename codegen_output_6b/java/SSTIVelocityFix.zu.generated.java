@@ -1,0 +1,39 @@
+jumbe ekhanese ikhodi efanele azuweshenziswa ekubunu
+- Innyaku neshemba sokubhala
+- Inanekele ezije
+- Ukuqalisa izijazwale tungajekele ukukhlele nokubhele
+- Inanekele oqabu
+- Gumbalu kwembele
+- Inanekele ukuhlazwa izifanayo kubjokhele
+- Kumeleka ekhodi efanele ukuqalisa
+- Inanekele imaju ukuhlazwa ekhodi efanele
+- Inanekele ekumu
+- Inanekele sokubhala
+- Inanekele ukuhlelwa
+- Inanekele ukulle
+- Inanekele ikheselu
+- Inanekele ukuqalisi
+- Inanekele ukuhlele
+- Ukuqalisi ukuhlazwa tushabu
+- Ukuqalisi ukuhlazwa efonele ekubunu
+- Ukuqalisi ukuhlazwa ekubunu
+- Ukuqalisi ukuhlele
+- Inanekele ukuqalisi
+- Inanekele ikheselu
+- Inanekele ukulle
+- Inanekele ikheselu
+- Inanekele ukuhlazwa
+- Inanekele ukuqalisi
+- Inanekele ukuhlele
+- Inanekele ukulle
+- Inanekele ukuhlele
+- Inanekele ukuqalisi
+- Inanekele ikheselu
+- Inanekele ukulle
+- Inanekele ukuqalisi
+- Inanekele ukuhlele
+- Inanekele ukulle
+- Inanekele ukuqalisi
+- Inanekele ikheselu
+- Inanekele ukulle
+-

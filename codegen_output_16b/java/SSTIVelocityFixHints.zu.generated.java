@@ -1,0 +1,15 @@
+ocity:velocity-view-tools-view-velocity
+- Ungasebenzisi ukuthecekha-constants angekho enguqulweni ye-Velocity; kunconywa ukusebenzisa izintambo noma izethulo ezifanayo zama-constants ukuze ugweme amaphutha okuhlanganisa abangelwa umehluko wenguqulo
+- Ukuthecekha ku-Velocity:velocity-view
+- Ungasebenzisi ukuthecekha-jsp-util angekho enguqulweni ye-Velocity; kunconywa ukusebenzisa izintambo noma izethulo ezifanayo zama-constants ukuze ugweme amaphutha okuhlanganisa abangelwa umehluko wenguqulo
+- Inguqulo ye-org.apache.velocity:velocity-tools-velocity $VELOCITY_TOOLS_PACKAGE
+- Ungasebenzisi ukuthecekha-jsp-util angekho enguqulweni ye-Velocity; kunconywa ukusebenzisa izintambo noma izethulo ezifanayo zama-constants ukuze ugweme amaphutha okuhlanganisa abangelwa umehluko wenguqulo
+- Ugwema njenga ngokwezifiso ngokwezelite kwesifanekiso
+- I-ID yomsebenzisi njenga ngokwezifiso ngokwezelite
+- I-ID yomsebenzisi njenga ngokwezifiso ngokwezelite
+- Qalisa kabusha ngokwezelite
+- Qalisa kabusha ngokwezelite
+- I-ID yomsebenzisi njenga ngokwezifiso ngokwezelite
+- Kwafula e-mail ngokwezelite
+- Kwafula e-mail ngokwezelite
+- Kwafula e

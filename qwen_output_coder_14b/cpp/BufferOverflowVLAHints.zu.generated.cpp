@@ -1,0 +1,1 @@
+Ngokuvamile, kufuneka ukubiza izinkomo ezimbili zokufuneka ukuphinda ikhodi ye-C. Ikakhulu kune isiginesha yendlela nesifiso sokusebenzisa ifayela le-CSV, kunye nokuphinda ikhodi ye-C kufuneka ukuphinda idatha kuma-array. Ngingakwazi ukukhululeza izinkomo ezimbili zokuphinda ikhodi ye-C noma ukuphinda izinto ezimbili eziningxelo.

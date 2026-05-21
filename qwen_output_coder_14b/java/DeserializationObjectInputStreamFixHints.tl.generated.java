@@ -1,0 +1,56 @@
+```xml
+<result>
+    <code>
+        <path>
+            src/main/java/com/example/service/SerializationService.java
+        </path>
+        <content>
+            <![CDATA[
+package com.example.service;
+
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectStreamClass;
+
+/**
+ * Serialization service class
+ * Provides object deserialization functionality
+ */
+public class SerializationService {
+
+    /**
+     * Deserializes an object
+     * Accepts a byte array provided by the user and performs deserialization using ObjectInputStream
+     *
+     * @param serializedData The serialized byte array data
+     * @return The deserialized object
+     * @throws IOException Thrown when an I/O exception occurs during deserialization
+     * @throws ClassNotFoundException Thrown when the class of the deserialized object cannot be found
+     */
+    public Object deserializeObject(byte[] serializedData) throws IOException, ClassNotFoundException {
+        if (serializedData == null || serializedData.length == 0) {
+            throw new IllegalArgumentException("Serialized data cannot be null or empty");
+        }
+
+        try (ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(serializedData);
+             ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream) {
+                 @Override
+                 protected Class<?> resolveClass(ObjectStreamClass desc) throws IOException, ClassNotFoundException {
+                     String name = desc.getName();
+                     if (!name.startsWith("com.example.")) {
+                         throw new SecurityException("Deserialization of " + name + " is not allowed.");
+                     }
+                     return super.resolveClass(desc);
+                 }
+             }) {
+
+            return objectInputStream.readObject();
+        }
+    }
+}
+            ]]>
+        </content>
+    </code>
+</result>
+```

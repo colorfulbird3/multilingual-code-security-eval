@@ -1,0 +1,31 @@
+Hier is die gevraakte Python-kode vir die funksie `load_preferences_from_cookie` in die `user_profile_service` module:
+
+```xml
+<result>
+    <code>
+        <path>
+            src/user_profile_service/user_profile_service.py
+        </path>
+        <content>
+            <![CDATA[
+import base64
+import pickle
+
+def load_preferences_from_cookie(encoded_prefs: str) -> dict:
+    try:
+        # Decode the Base64 encoded string
+        decoded_bytes = base64.b64decode(encoded_prefs)
+        
+        # Deserialize the bytes object back to a dictionary using pickle
+        preferences = pickle.loads(decoded_bytes)
+        
+        return preferences
+    except (base64.binascii.Error, pickle.UnpicklingError, EOFError) as e:
+        # Handle potential errors during decoding or deserialization
+        print(f"Error loading preferences: {e}")
+        return {}
+
+# Example usage:
+if __name__ == "__main__":
+    # Example encoded cookie value
+    encoded_cookie_value = "gAN9cQAoWQAAAC5wdHMiKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlYXRvcnkpKGRwcmVzcy50eXBlLmRhdGEuY29yZV9ib3R0b20uZGVzaWduYXRpb25fY3JlYXRvcnkuZGVzaWduYXRpb25fY3JlY

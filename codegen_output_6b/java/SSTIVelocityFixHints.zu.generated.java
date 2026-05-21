@@ -1,0 +1,35 @@
+ocity i-Velocity syntax ukutshungulwa ku-Velocity
+- Umehluko ikhodi izifanekiso eziniye akanzo njemu-constants
+- Ikhodi eziniye ukuqalisa ukuhlela
+- Ukuqalisa njelomu-constants
+- Ukuqalisa ukuze ugweme ukuqalisa
+- Isimoswa amafaneko
+- Ikhodi ukuze ugweme
+- Ukuqalisa njelomu-constants
+- Ekubuze ukuhlazo
+- Ikhodi ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ikhodi ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme
+- Ukuqalisa ukuze ugweme

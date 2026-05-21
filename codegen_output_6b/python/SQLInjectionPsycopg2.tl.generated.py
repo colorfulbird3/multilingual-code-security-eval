@@ -1,0 +1,90 @@
+ATA[
+        content1
+        ]]>
+        </content>
+    </code>
+</result>
+```
+
+I-output ng user_activity_logger na gaminit sa `src/user_activity_logger/user_activity_logger.py` sa sumusunod na format:
+```xml
+<user_activity_logger>
+    <user>
+        <username>
+            <name>
+                <first_name>
+                    first_name1
+                </first_name>
+                <last_name>
+                    last_name1
+                </last_name>
+            </name>
+            <email>
+                <email>
+                    email1
+                </email>
+            </email>
+            <email_verification_token>
+                <token>
+                    token1
+                </token>
+            </email_verification_token>
+            <email_verification_status>
+                <status>
+                    <name>
+                        <code>
+                            <status>
+                                <code>
+                                    status1
+                                </code>
+                            </status>
+                        </name>
+                    </status>
+                </email_verification_status>
+            </user>
+        </username>
+        <path>
+            path1
+        </path>
+        <content>
+            <![CDATA[
+        content1
+        ]]>
+        </content>
+        <log_time>
+            <time>
+                <time>
+                    <time_zone>
+                        <time_zone>
+                            <time_zone_name>
+                                <name>
+                                    name1
+                                </name>
+                                <code>
+                                    code1
+                                </code>
+                            </time_zone_name>
+                        </time_zone>
+                    </time_zone>
+                </time>
+            </time>
+        </log_time>
+        <path>
+            path2
+        </path>
+        <content>
+            <![CDATA[
+        content2
+        ]]>
+        </content>
+        <log_time>
+            <time>
+                <time>
+                    <time_zone>
+                        <time_zone>
+                            <time_zone_name>
+                                <name>
+                                    name2
+                                </name>
+                                <code>
+                                

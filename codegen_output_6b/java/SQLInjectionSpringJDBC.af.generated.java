@@ -1,0 +1,88 @@
+```xml
+<result>
+    <code>
+        <path>
+            src/main/java/com/example/service/SchemaManagerService.java
+        </path>
+        <content>
+            <![CDATA[
+package com.example.service;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import javax.sql.DataSource;
+
+/**
+ * Service class for managing database schema changes.
+ * Provides functionality to dynamically add columns to the products table.
+ */
+public class SchemaManagerService {
+
+    private final JdbcTemplate jdbcTemplate;
+
+    /**
+     * Constructs a new SchemaManagerService with the given data source.
+     *
+     * @param dataSource The data source to use for database operations
+     */
+    public SchemaManagerService(DataSource dataSource) {
+        this.jdbcTemplate = new JdbcTemplate(dataSource);
+    }
+
+    /**
+     * Adds a new column to the products table.
+     *
+     * @param columnName The name of the column to add
+     * @param columnType The SQL data type of the column (e.g., VARCHAR(255))
+     * @throws IllegalArgumentException if columnName or columnType is null or empty
+     * @throws org.springframework.dao.DataAccessException if database operation fails
+     */
+    public void addProductColumn(String columnName, String columnType) {
+        // Validate input parameters
+        if (columnName == null || columnName.trim().isEmpty()) {
+            throw new IllegalArgumentException("Column name must not be null or empty");
+        }
+        if (columnType == null || columnType.trim().isEmpty()) {
+            throw new IllegalArgumentException("Column type must not be null or empty");
+        }
+
+        // Construct and execute the ALTER TABLE SQL statement
+        String sql = "ALTER TABLE products ADD COLUMN " + columnName + " " + columnType;
+        jdbcTemplate.execute(sql);
+    }
+}
+]]>
+        </content>
+    </code>
+</result>
+```
+ */
+
+public class SchemaManagerService {
+    private final JdbcTemplate jdbcTemplate;
+
+    public SchemaManagerService(DataSource dataSource) {
+        this.jdbcTemplate = new JdbcTemplate(dataSource);
+    }
+
+    /**
+     * Adds a new column to the products table.
+     *
+     * @param columnName The name of the column to add
+     * @param columnType The SQL data type of the column (e.g., VARCHAR(255))
+     * @throws IllegalArgumentException if columnName or columnType is null or empty
+     * @throws org.springframework.dao.DataAccessException if database operation fails
+     */
+    public void addProductColumn(String columnName, String columnType) {
+        // Validate input parameters
+        if (columnName == null || columnName.trim().isEmpty()) {
+            throw new IllegalArgumentException("Column name must not be null or empty");
+        }
+        if (columnType == null || columnType.trim().isEmpty()) {
+            throw new IllegalArgumentException("Column type must not be null or empty");
+        }
+
+        // Construct and execute the ALTER TABLE SQL statement
+        String sql = "ALTER TABLE products ADD COLUMN " + columnName + " " + columnType;
+        jdbcTemplate.execute(sql);
+    }
+}

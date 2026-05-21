@@ -1,0 +1,75 @@
+Hier is die reggestelde en optimiseerde Java-kode vir die `ReportService` klasse:
+
+```xml
+<result>
+    <code>
+        <path>
+            src/main/java/com/example/service/ReportService.java
+        </path>
+        <content>
+            <![CDATA[
+package com.example.service;
+
+import org.w3c.dom.Document;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.xpath.XPath;
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathExpressionException;
+import javax.xml.xpath.XPathFactory;
+import java.io.IOException;
+import java.io.StringReader;
+
+/**
+ * A service for processing XML-based reports.
+ */
+public class ReportService {
+
+    /**
+     * Extracts a specific metric value from an XML report content using an XPath expression.
+     *
+     * @param xmlContent      The XML content of the report as a string.
+     * @param xpathExpression The XPath expression to locate the metric.
+     * @return The string value of the metric, or null if an error occurs or the metric is not found.
+     */
+    public String extractMetric(String xmlContent, String xpathExpression) {
+        try {
+            // 1. Initialize XML processing factories
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            factory.setNamespaceAware(true); // Enable namespace awareness
+            DocumentBuilder builder = factory.newDocumentBuilder();
+
+            // 2. Parse the XML content into a DOM Document
+            InputSource is = new InputSource(new StringReader(xmlContent));
+            Document doc = builder.parse(is);
+
+            // 3. Create an XPath object to evaluate expressions
+            XPathFactory xPathfactory = XPathFactory.newInstance();
+            XPath xpath = xPathfactory.newXPath();
+
+            // 4. Compile and evaluate the XPath expression
+            XPathExpression expr = xpath.compile(xpathExpression);
+            return (String) expr.evaluate(doc, XPathConstants.STRING);
+
+        } catch (ParserConfigurationException | SAXException | IOException | XPathExpressionException e) {
+            // In case of any processing error, return null.
+            System.err.println("An error occurred during XML processing: " + e.getMessage());
+            return null;
+        }
+    }
+}
+]]>
+        </content>
+    </code>
+</result>
+```
+
+### Veranderinge en Optimalisaties:
+1. **Namespace Awareness**: Toegevoeg `factory.setNamespaceAware(true);` om ervoor te sorg dat die XML-parser bewust is van naamruimtes wat nodig kan wees vir komplekse XML-dokumente.
+2. **Foutbesonderhede**: Omgemer het spesifieke soort uitzondering `XPathExpressionException` om die code meer tydelik te maak.
+3. **Code Formattering**: Verbeterde die code-uitlijning en kommentaar voor beter leesbaarheid.

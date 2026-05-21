@@ -1,0 +1,15 @@
+```xml
+<result>
+    <code>
+        <path>
+            src/main/resources/application.properties
+        </path>
+        <content>
+            <![CDATA[
+management.endpoints.web.exposure.include=health,info
+server.port=8080
+            ]]>
+        </content>
+    </code>
+</result>
+```

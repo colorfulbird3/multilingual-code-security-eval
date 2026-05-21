@@ -1,0 +1,22 @@
+
+
+- Ke lephakheji: `com.example.service`
+- Ke lekilasi: `YamlService`
+- Ke ukubo: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `YamlService`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzokukuthi: `src/main/java/com/example/service/YamlService.java`
+- Ke uzok

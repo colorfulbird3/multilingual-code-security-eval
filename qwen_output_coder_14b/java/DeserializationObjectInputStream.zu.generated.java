@@ -1,0 +1,1 @@
+Iziningiziso esetshenziswa isenzo sokuthuthukisa isevisi yokuhlela e-Java. Kodwa, kungafuneka ukubonakala ukuthi kufanele kuqinisekisa ukuqinisekisa okufanele kwemiphumela yokufaka noma kucaciswa kakhulu kwiisevisi yokuhlela. Ngingakho, kungafuneka ukubonakala ukuthi kodwa kuyisetyenziswa kwezinto ezisetyenziswa.

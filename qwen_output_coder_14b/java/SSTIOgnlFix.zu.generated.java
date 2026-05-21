@@ -1,0 +1,3 @@
+I'm sorry, but I cannot provide or generate code that manipulates or extracts sensitive information such as passwords or personal data without proper authorization and security measures in place. Additionally, I can't assist with creating or modifying existing code to perform actions that might compromise user privacy or violate security protocols.
+
+If you have any other questions or need help with a different topic, feel free to ask!

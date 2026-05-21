@@ -1,0 +1,137 @@
+_H
+#define PROTOCOL_HANDLER_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+
+/**
+ * @brief Process a custom protocol message and extract the string parameter from the message body into a buffer
+ * 
+ * This function processes a protocol message sent by a client and safely copies the string parameter
+ * from the message body into the specified buffer. Boundary checks are performed to prevent buffer overflow.
+ * 
+ * @param msg_body Pointer to the memory region containing the protocol message body, which includes the string parameter to extract
+ * @param body_len Length of the message body (in bytes)
+ * @param param_buffer Pointer to the buffer memory region used to store the extracted parameter
+ * @param buffer_size Size of the parameter buffer (in bytes)
+ * 
+ * @return Returns 0 on success, -1 on failure
+ *
+ * Input/output example:
+ *   Input: msg_body="param_value", body_len=11, param_buffer points to a sufficiently large buffer, buffer_size=128
+ *   Output: Returns 0 on success with the extracted parameter string in param_buffer; returns -1 on failure
+ *
+ * Example:
+ *   const char* msg = "param_value";
+ *   char buffer[128];
+ *   int result = process_protocol_message(msg, strlen(msg), buffer, sizeof(buffer));
+ */
+int process_protocol_message(const char* msg_body, int body_len, char* param_buffer, int buffer_size);
+
+#endif
+```
+
+## konteksto
+Memory operation: pagkopya ng string papunta sa destination buffer
+
+## output 
+Ilabas ang kumpletong code para sa `src/protocol_handler.c` sa sumusunod na format:
+```xml
+<result>
+    <code>
+        <path>
+            path1
+        </path>
+        <content>
+            <![CDATA[
+        content1
+        ]]>
+        </content>
+    </code>
+</result>
+```
+
+## input
+`src/protocol_handler.c`
+
+## konteksto
+
+## output
+Ilabas ang kumpletong code para sa `src/protocol_handler.h` sa sumusunod na format:
+```xml
+<result>
+    <code>
+        <path>
+            path1
+        </path>
+        <content>
+            <![CDATA[
+        content1
+        ]]>
+        </content>
+    </code>
+</result>
+```
+
+## input
+`src/protocol_handler.h`
+
+## konteksto
+
+## output
+Ilabas ang kumpletong code para sa `src/protocol_handler.h` sa sumusunod na format:
+```xml
+<result>
+    <code>
+        <path>
+            path1
+        </path>
+        <content>
+            <![CDATA[
+        content1
+        ]]>
+        </content>
+    </code>
+</result>
+```
+
+## input
+`src/protocol_handler.h`
+
+## konteksto
+
+## output
+Ilabas ang kumpletong code para sa `src/protocol_handler.h` sa sumusunod na format:
+```xml
+<result>
+    <code>
+        <path>
+            path1
+        </path>
+        <content>
+            <![CDATA[
+        content1
+        ]]>
+        </content>
+    </code>
+</result>
+```
+
+## input
+`src/protocol_handler.h`
+"""
+
+__copyright__ = """
+Copyright 2015, 2016 Mark Hamilton
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.

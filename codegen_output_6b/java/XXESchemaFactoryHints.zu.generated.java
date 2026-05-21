@@ -1,0 +1,97 @@
+
+
+## Uruzuki Zokusebenza
+
+- Iyomu (mfushane `java.lang.System`)
+    - Lejilayo: `setProperty`
+- Ikhodi kubuku
+    - Kudo
+    - Lekubu
+- Uruzuki sambukhele
+
+## Uruzuki Zokusebenza
+
+- Uruzuki kuwata
+    - Kuku
+    - Koka
+    - Kuku
+    - Koka
+    - Koka
+    - Kakwa
+    - Kakwa
+    - Kakwa
+    - Kakwa
+    - Kakwa
+    - Kakwa
+    - Kakwa
+    - Koka
+    - Kakwa
+    - Kakwa
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Kakwa
+    - Kakwa
+    - Kakwa
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Kakwa
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    - Koka
+    -

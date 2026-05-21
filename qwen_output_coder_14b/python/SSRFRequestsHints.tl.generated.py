@@ -1,0 +1,1 @@
+Bakit kailangan ko ng isang Python code para sa weather forecast application na tumatanggap ng API URL at ginagamit ang requests library upang makuha ang datos ng panahon?

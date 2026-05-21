@@ -1,0 +1,24 @@
+```xml
+<result>
+    <code>
+        <path>
+            src/main/java/com/example/service/MessageService.java
+        </path>
+        <content>
+            <![CDATA[
+package com.example.service;
+
+public class MessageService {
+
+    public String getWelcomeMessage(String username) {
+        if (username == null || username.trim().isEmpty()) {
+            throw new IllegalArgumentException("Username cannot be null or empty");
+        }
+        return "<h1>Welcome, " + username + "!</h1>";
+    }
+}
+            ]]>
+        </content>
+    </code>
+</result>
+```
