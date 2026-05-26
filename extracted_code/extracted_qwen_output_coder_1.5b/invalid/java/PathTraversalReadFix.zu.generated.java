@@ -1,0 +1,1 @@
+Okuqukethwe okuphelele kwefayela njengomugqa

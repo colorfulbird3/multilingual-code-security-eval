@@ -9,7 +9,7 @@ from openai import OpenAI
 # ================= 配置 =================
 API_BASE = "https://api.deepseek.com"
 MODEL = "deepseek-chat"
-MAX_WORKERS = 1000
+MAX_WORKERS = 100
 VOTE_TIMES = 3
 RETRY_COUNT = 2
 MIN_CONSISTENCY = 2

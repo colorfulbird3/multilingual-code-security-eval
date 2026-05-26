@@ -1,0 +1,1 @@
+int init_user_data(void *init_data, size_t data_len, void *pool_buffer, size_t pool_size);

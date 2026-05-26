@@ -1,0 +1,1 @@
+throw new Exception("Kon nie XML Schema ontleed nie: " + e.getMessage(), e);

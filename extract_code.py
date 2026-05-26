@@ -7,16 +7,18 @@ from openai import OpenAI
 # ========== 配置 ==========
 API_BASE = "https://api.deepseek.com"
 MODEL = "deepseek-chat"
-MAX_WORKERS = 200          # 并发线程数
+MAX_WORKERS = 10          # 并发线程数
 RETRY_COUNT = 2          # 失败重试次数
 
 # 要处理的模型目录
 INPUT_DIRS = [
-    "qwen_output_coder_7b",
-    "qwen_output_coder_14b",
-    "codegen_output_16b",
-    "qwen_output_0.5b",        
-    "codegen_output_6b",
+    #"qwen_output_coder_7b",
+    #"qwen_output_coder_14b",
+    #"codegen_output_16b",
+    #"qwen_output_0.5b",        
+    #"codegen_output_6b",
+    #"qwen_output_1.5b_coder",
+    "qwen_output_codegen_2b",
 ]
 
 OUTPUT_PREFIX = "extracted_"

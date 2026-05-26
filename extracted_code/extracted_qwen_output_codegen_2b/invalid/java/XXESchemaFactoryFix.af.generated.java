@@ -1,0 +1,756 @@
+<![CDATA[
+<![CDATA[
+<![CDATA[
+content1
+<![CDATA[]
+content1
+<![CDATA[]
+content1
+content1
+content1
+]]>
+</content>
+]]>
+</content>
+]]>
+</result>
+</xml>
+```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// <![CDATA[
+// <![CDATA[
+// content1
+// <![CDATA[]
+// content1
+// <![CDATA[]
+// content1
+// content1
+// content1
+// ]]>
+// </content>
+// ]]>
+// </content>
+// ]]>
+// </result>
+// </xml>
+// ```
+// ## Uitvoerformaat
+// Voer die volledige reggestelde kode vir `src/main/java/com/app/service/XmlProcessingService.java` uit in die volgende formaat:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <

@@ -1,0 +1,1 @@
+Map<String, Object> result = salesService.getSalesByGroup("product_category", "2024-01-01,2024-12-31");

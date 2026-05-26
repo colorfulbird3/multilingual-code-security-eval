@@ -1,0 +1,13 @@
+<main/resources/config.xml>
+<configuration>
+    <database>
+        <url>jdbc:mysql://localhost:3306/mydb</url>
+        <username>admin</username>
+        <password>secret</password>
+    </database>
+    <server>
+        <port>8080</port>
+        <host>localhost</host>
+    </server>
+</configuration>
+</main/resources/config.xml>

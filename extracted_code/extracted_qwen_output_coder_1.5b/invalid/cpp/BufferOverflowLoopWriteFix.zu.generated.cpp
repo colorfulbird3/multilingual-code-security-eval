@@ -1,0 +1,27 @@
+ibona kuselwe amakhombwe, ukuthi izinkomba ezifinyelelwayo zingaphakathi kohla [0, ubude).
+3. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+4. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+5. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+6. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+7. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+8. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+9. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+10. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+11. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+12. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+13. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+14. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+15. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+16. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+17. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+18. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+19. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+20. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+21. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+22. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+23. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+24. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+25. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+26. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+27. Ushenyeziswa izingo xembe amakhombwe, usyisi noma isihlukanisi esichazwe ngokusebenza.
+28. Ushenyeziswa izingo xembe amakhombwe

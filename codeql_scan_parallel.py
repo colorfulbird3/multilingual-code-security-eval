@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # ================= 配置 =================
 CODEQL_EXE = r"E:\multilingual-code-security-eval\codeql\codeql\codeql.exe"
 EXTRACTED_DIR = Path(r"E:\multilingual-code-security-eval\extracted_code")
-MAX_WORKERS = 4          # 并发模型数
+MAX_WORKERS = 16          # 并发模型数
 
 # 语言配置
 LANGS = {

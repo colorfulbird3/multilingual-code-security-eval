@@ -1,0 +1,77 @@
+: `HashService`
+// ## Ifomethi Yokukhipha
+// Khipha ikhodi ephelele ye `src/main/java/com/example/service/HashService.java` ngefomethi elandelayo:
+// ```xml
+// <result>
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// content1
+// ]]>
+// </content>
+// </code>
+// </result>
+// ```
+// ikohliye makukohla:
+// ```xml
+// <code>
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// content1
+// ]]>
+// </content>
+// </code>
+// ```
+// Ikohliye makukohla:
+// ```xml
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// content1
+// ]]>
+// </content>
+// </code>
+// ```
+// ```xml
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// content1
+// ]]>
+// </content>
+// </code>
+// ```
+// Ikohliye makukohla:
+// ```xml
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// content1
+// ]]>
+// </content>
+// </code>
+// ```
+// Ikohliye makukohla:
+// ```xml
+// <path>
+// path1
+// </path>
+// <content>
+// <![CDATA[
+// content1
+// ]]>
+// </content>
+// </code>
+// ```

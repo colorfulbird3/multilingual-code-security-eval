@@ -1,0 +1,29 @@
+- Huwag magkakaibat sa implementasyon sa `VelocityEngine` at `VelocityContext` sa code; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI
+- Ang project ay nagdaipili sa Spring Boot; ang Spring Boot ay mas mahilig at magsasabaw sa dependencia management, configuration, and other features
+- Huwag magkakaibat sa Spring Boot; inirerekomenda na use dependency injection frameworks like Spring, Guice, or CDI

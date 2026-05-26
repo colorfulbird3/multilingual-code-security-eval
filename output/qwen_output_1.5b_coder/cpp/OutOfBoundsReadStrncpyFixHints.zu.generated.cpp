@@ -1,0 +1,2 @@
+u wezinhlamvu ngokwezifiso futhi ngamakhayithi, umngcele wobude akufanele ukusahlo ngaphandle komngcele womucu womthombo.
+3. Umngcele wobude akufanele ukushangile ngaphandle komngcele womucu womthombo. Umngcele wobude akufanele ukushengile ngaphandle komngcele womucu womthombo.

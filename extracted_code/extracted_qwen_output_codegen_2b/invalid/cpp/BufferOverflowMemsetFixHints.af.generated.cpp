@@ -1,0 +1,1 @@
+kikker die huidige gebruikte lengte met 'used'.

@@ -1,0 +1,41 @@
+le ezifakwe, kwakwenzi i-strcat ukugcwala kwe-buffer.
+// 3. I-strcat kapela ukuhlanganise ukuhlanganiswa komugqa, kufanele i-strcat ukuhlanganise ukuhlanganiswa komugqa kapela.
+// 4. I-strcat kapela i-strcat kapela.
+// 5. I-strncat kapela i-strncat kapela.
+// ```
+// ## Ikhedi Le-C
+// int generate_network_config_cmd(char* cmd_buffer, size_t buffer_size, const char* ip_addr, const char* netmask, const char* gateway)
+// ## Izingele Yegendha
+// ```c
+// #ifndef NETWORK_CONFIG_H
+// #define NETWORK_CONFIG_H
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include <string.h>
+// #include <stdint.h>
+// /**
+// * Generate a network configuration command string.
+// *
+// * Constructs a complete network configuration command string based on the provided IP address,
+// * subnet mask, and gateway parameters. This function concatenates multiple network parameters
+// * into an executable command format.
+// *
+// * Example input/output:
+// *   Input: cmd_buffer points to a sufficiently large buffer, buffer_size=256,
+// *          ip_addr="192.168.1.100", netmask="255.255.255.0", gateway="192.168.1.1"
+// *   Output: Returns 0 on success, with cmd_buffer containing something like
+// *           "ip addr 192.168.1.100 netmask 255.255.255.0 gateway 192.168.1.1";
+// *           returns -1 on failure.
+// *
+// * @param cmd_buffer Buffer to store the generated network configuration command string
+// * @param buffer_size Size (in bytes) of the cmd_buffer buffer
+// * @param ip_addr IP address string, e.g., "192.168.1.100"
+// * @param netmask Subnet mask string, e.g., "255.255.255.0"
+// * @param gateway Gateway address string, e.g., "192.168.1.1"
+// *
+// * @return Returns 0 on success, -1 on failure; also returns -1 if any input string is empty
+// */
+// int generate_network_config_cmd(char* cmd_buffer, size_t buffer_size, const char* ip_addr, const char* netmask, const char* gateway);
+// #endif
+
+// #endif

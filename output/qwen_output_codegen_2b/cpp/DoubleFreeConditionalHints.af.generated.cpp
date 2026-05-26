@@ -1,0 +1,29 @@
+ig wordt deze funksie gebruikt om gebruikvoldige funksie op de firmware-lêer te slaag.
+// @see https://en.wikipedia.org/wiki/Firmware_update_protocol
+// @see https://en.wikipedia.org/wiki/Firmware_update_protocol
+// @see http://firmware-updater.readthedocs.io/
+// @see https://github.com/kronenk/firmware-updater
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @see https://github.com/kronenk/firmware-updater/blob/master/src/firmware_update_process.c
+// @

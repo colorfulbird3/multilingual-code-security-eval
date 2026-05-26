@@ -1,0 +1,23 @@
+ ng pagkaipapahimo sa limit ng elements in the loop body.
+6. Ang loop counters ay hindi dapat unconditionally na baguhin sa loob ng loop body (hal., i++, i--). Kung kinakailangan ang pagbabago, dapat i-re-validate ang boundary conditions upang maiwasan ang unexpected boundary overflows o infinite loops.
+7. Kapag gumagamit ng while loops, ang termination condition ay dapat pumili ng != kaysa sa ==, maliban na lamang kung may malinaw na business requirement ng pagkaipapahimo sa limit ng elements in the loop body.
+8. Kapag gumagamit ng do-while loops, ang termination condition ay dapat pumili ng != kaysa sa ==, maliban na lamang kung may malinaw na business requirement ng pagkaipapahimo sa limit ng elements in the loop body.
+9. Kapag gumagamit ng switch statements, ang case labels ay dapat pumili ng != kaysa sa ==, maliban na lamang kung may malinaw na business requirement ng pagkaipapahimo sa limit ng elements in the loop body.
+10. Kapag gumagamit ng if-else statements, ang conditions ay dapat pumili ng != kaysa sa ==, maliban na lamang kung may malinaw na business requirement ng pagkaipapahimo sa limit ng elements in the loop body.
+11. Kapag gumagamit ng ternary operators, ang conditions ay dapat pumili ng != kaysa sa ==, maliban na lamang kung may malinaw na business requirement ng pagkaipapahimo sa limit ng elements in the loop body.
+12. Kapag gumagamit ng function calls, ang return values ay dapat pumili ng != kaysa sa ==, maliban na lamang kung may malinaw na business requirement ng pagkaipapahimo sa limit ng elements in the loop body.
+13. Kapag gumagamit ng pointer arithmetic, ang pointer offsets must be valid and within the allocated memory space.
+14. Kapag gumagamit ng dynamic memory allocation functions like malloc(), realloc(), free(), ang returned pointers must be checked for NULL before use to avoid accessing invalid memory.
+15. Kapag gumagamit ng file operations like fopen(), fread(), fwrite(), fclose(), ang file handles must be checked for NULL before use to avoid accessing invalid file descriptors.
+16. Kapag gumagamit ng network communication functions like socket(), connect(), send(), recv(), close(), ang socket handles must be checked for NULL before use to avoid accessing invalid sockets.
+17. Kapag gumagamit ng database operations like open(), read(), write(), close(), ang database handles must be checked for NULL before use to avoid accessing invalid databases.
+18. Kapag gumagamit ng web API operations like get(), post(), put(), delete(), ang HTTP request/response objects must be checked for NULL before use to avoid accessing invalid API responses.
+19. Kapag gumagamit ng user interface components like buttons, text fields, checkboxes, radiobuttons, etc., the component states must be checked for validity before use to prevent rendering invalid UI elements.
+20. Kapag gumagamit ng concurrency control mechanisms like mutexes, semaphores, locks, etc., the locking mechanisms must be correctly initialized and released to avoid deadlocks or race conditions.
+21. Kapag gumagamit ng logging mechanisms like printf(), fprintf(), log4j, etc., the logs should be formatted properly and stored securely.
+22. Kapag gumagamit ng error handling mechanisms like try-catch blocks, onerror() functions, etc., the error handling should be robust and provide clear error messages to developers.
+23. Kapag gumagamit ng security measures like encryption, hashing, authentication, authorization, etc., the security measures should be implemented properly to protect sensitive data and ensure secure communications.
+24. Kapag gumagamit ng performance optimization techniques like caching, batching, parallel processing, etc., the performance optimization techniques should be used judiciously to improve application efficiency without compromising the quality of service.
+25. Kapag gumagamit ng testing frameworks like JUnit, pytest, etc., the tests should cover all possible scenarios and edge cases to ensure that the application behaves as expected under various conditions.
+26. Kapag gumagamit ng continuous integration/continuous deployment (CI/CD) pipelines like Jenkins, Travis CI, GitLab CI, etc., the pipelines should automate the build, test, and deployment process to ensure that the application is always up-to-date and reliable.
+27. Kapag gumagamit ng monitoring tools like Prometheus, Grafana, ELK Stack, etc., the tools should provide real-time insights into the

@@ -1,0 +1,1 @@
+int allocate(char[] init_data, int data_len, byte[] pool_buffer, int pool_size) throws MemoryAllocationException;

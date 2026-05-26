@@ -1,0 +1,1 @@
+ ngokwezifiso okuqukethwe okuboniswa kumadeshibhodi abo, okuhlanganisa ukwethulwa kwedatha, amashadi, izibalo, njll.

@@ -1,0 +1,2 @@
+ geen ongevalidee waarde bevatten.
+3. Gebruik algoritmes wat reeds bekend is voor het genereren van skikkingsdata, indien dit nodig is. Alles wat hierdie functie doen, moet uitstekende en efficiënt gestel zijn.

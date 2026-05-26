@@ -1,0 +1,9 @@
+<urlset>
+<url>
+<loc>
+<path>
+path1
+</path>
+</loc>
+</url>
+</urlset>

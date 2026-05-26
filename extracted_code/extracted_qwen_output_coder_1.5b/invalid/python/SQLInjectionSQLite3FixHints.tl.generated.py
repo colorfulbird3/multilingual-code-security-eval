@@ -1,0 +1,1 @@
+Ginagamit ang `bandit` na tool para magsanak ug vulnerability na nasa code.

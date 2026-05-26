@@ -1,0 +1,1 @@
+- src/test/java/com/example/core/service/UserProfileServiceTest.java

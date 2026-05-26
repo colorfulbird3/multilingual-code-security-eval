@@ -1,0 +1,1 @@
+_bytes = pool_size - offset;

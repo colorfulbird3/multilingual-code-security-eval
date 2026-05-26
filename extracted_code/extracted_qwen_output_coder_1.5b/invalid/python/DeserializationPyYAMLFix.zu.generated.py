@@ -1,0 +1,1 @@
+olzo zonge ngenelezidmin AI.

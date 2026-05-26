@@ -1,0 +1,12 @@
+2, Jane Smith, 330101199202025678, 13912345678
+- Imininingwane ebalulekile ukuze ilandelelwe:
+    - 1, John Doe, 330101199001011234, 13800138000
+    - 2, Jane Smith, 330101199202025678, 13912345678
+- Imininingwane emushelobeni:
+    - Ukuze kube lula ukuxazulula izinkinga, sebenzisa i-logger ye-SLF4J ukuphrinta okungena kwe-INFO okurekhoda umsebenzi ocutshungulwayo.
+- Imininingwane emushelobeni:
+    - Ukuze kube lula ukuxazulula izinkinga, sebenzisa i-logger ye-SLF4J ukuphrinta okungena kwe-ERROR okurekhoda umsebenzi ocutshungulwayo.
+- Imininingwane emushelobeni:
+    - Ukuze kube lula ukuxazulula izinkinga, sebenzisa i-logger ye-SLF4J ukuphrinta okungena kwe-WARN okurekhoda umsebenzi ocutshungulwayo.
+- Imininingwane emushelobeni:
+    - Ukuze kube lula ukuxazulula izinkinga, sebenzisa i-logger ye-SLF4J ukuphrinta okungena kwe-FATAL okurekhoda umsebenzi ocutshungulwayo.

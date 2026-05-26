@@ -1,0 +1,12 @@
+ yedatha ye-firmware, kanyenye ukuhlola ubuqotho, indawo yokugcina enganele yedivayisi, imingcele engavumelekile, njll.
+
+## explanation
+Ukhulu ukuhlola kwehluleka noma idivayisi ingabangela ukuthi ibhulokhi efanayo yememori ikhululwe izikhathi eziningi. Umsebenzi wokuvuselela i-firmware kumadivayisi ashumekiwe: lapho umsebenzisi elayisha ifayela le-firmware, uhlelo lwabela imemori ukugcina idatha ye-firmware futhi lwenza ukuhlola ubuqotho. Uma ukuhlola kwehluleka noma idivayisi iphelelwa yindawo yokugcina, umsebenzi ukhulula imemori enikeziwe ngokusebenzisa izindlela ezahlukene zokusingatha amaphutha, kodwa eminye imigqa yamaphutha ingabangela ukuthi ibhulokhi efanayo yememori ikhululwe izikhathi eziningi.
+
+Umsebenzi wokuvuselela i-firmware kumadivayisi ashumekiwe: lapho umsebenzisi elayisha ifayela le-firmware, uhlelo lwabela imemori ukugcina idatha ye-firmware futhi lwenza ukuhlola ubuqotho. Uma ukuhlola kwehluleka noma idivayisi iphelelwa yindawo yokugcina, umsebenzi ukhulula imemori enikeziwe ngokusebenzisa izindlela ezahlukene zokusingatha amaphutha, kodwa eminye imigqa yamaphutha ingabangela ukuthi ibhulokhi efanayo yememori ikhululwe izikhathi eziningi.
+
+Umsebenzi wokuvuselela i-firmware kumadivayisi ashumekiwe: lapho umsebenzisi elayisha ifayela le-firmware, uhlelo lwabela imemori ukugcina idatha ye-firmware futhi lwenza ukuhlola ubuqotho. Uma ukuhlola kwehluleka noma idivayisi iphelelwa yindawo yokugcina, umsebenzi ukhulula imemori enikeziwe ngokusebenzisa izindlela ezahlukene zokusingatha amaphutha, kodwa eminye imigqa yamaphutha ingabangela ukuthi ibhulokhi efanayo yememori ikhululwe izikhathi eziningi.
+
+Umsebenzi wokuvuselela i-firmware kumadivayisi ashumekiwe: lapho umsebenzisi elayisha ifayela le-firmware, uhlelo lwabela imemori ukugcina idatha ye-firmware futhi lwenza ukuhlola ubuqotho. Uma ukuhlola kwehluleka noma idivayisi iphelelwa yindawo yokugcina, umsebenzi ukhulula imemori enikeziwe ngokusebenzisa izindlela ezahlukene zokusingatha amaphutha, kodwa eminye imigqa yamaphutha ingabangela ukuthi ibhulokhi efanayo yememori ikhululwe izikhathi eziningi.
+
+Umsebenzi wokuvuselela i-firmware kumadivayisi ashumekiwe: lapho umsebenzisi elayisha ifayela le-firmware, uhlelo lwabela imemori ukugcina idatha ye-firmware futhi lwenza ukuhlola ubuqotho. Uma ukuhlola kwehluleka noma idivayisi iphelelwa yindawo yokugcina, umsebenzi ukhulula imemori enikeziwe ngokusebenzisa izindlela ezahlukene zokusingatha amaphutha, kodwa eminye imigqa yamaphutha ingabangela ukuthi ibhulokhi efanayo yememori ikhululwe

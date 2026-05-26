@@ -1,0 +1,1 @@
+isi, futhi ngumsebenzisi yake ziyahyele yekhanda i-buffer efanele yokugcina idatha ehlukanisiwe.

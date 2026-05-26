@@ -1,0 +1,215 @@
+_banner
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# ## Uitset
+# Beskryf eers die probleem in die kode hierbo, maak dan die probleem in die kode reg, en gee die volledige kode vir `src/user_profile_service/user_profile_service.py` in die volgende formaat:
+# ```xml
+# <result>
+# <code>
+# <path>
+# path1
+# </path>
+# <content>
+# <![CDATA[
+# content1
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path2
+# </path>
+# <content>
+# <![CDATA[
+# content2
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path3
+# </path>
+# <content>
+# <![CDATA[
+# content3
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path4
+# </path>
+# <content>
+# <![CDATA[
+# content4
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path5
+# </path>
+# <content>
+# <![CDATA[
+# content5
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path6
+# </path>
+# <content>
+# <![CDATA[
+# content6
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path7
+# </path>
+# <content>
+# <![CDATA[
+# content7
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# """
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path8
+# </path>
+# <content>
+# <![CDATA[
+# content8
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# """
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path9
+# </path>
+# <content>
+# <![CDATA[
+# content9
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# """
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path10
+# </path>
+# <content>
+# <![CDATA[
+# content10
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# """
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path11
+# </path>
+# <content>
+# <![CDATA[
+# content11
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# """
+# ## Uitset
+# ```xml
+# <result>
+# <code>
+# <path>
+# path12
+# </path>
+# <content>
+# <![CDATA[
+# content12
+# ]]>
+# </content>
+# </code>
+# </result>
+# ```
+# """
+# """
+# Weegawe de weergegee 'n proefling:
+# """
+# from. import app
+# app.run(debug=True, port=8080)
+# """
+# """
+# """
+# Weegawe de weergegee 'n proefling:
+# """
+# from. import app
+# import os
+# from flask import Flask
+# from flask.ext.script import Manager
+# from flask.ext.assets import ManagedAssets
+# from flask.ext.migrate import Migrate
+#
+# manager = Manager(app)
+# manager.add_command('db', Migrate)
+# manager.add_command('assets', ManagedAssets)
+#
+# if __name__ ==

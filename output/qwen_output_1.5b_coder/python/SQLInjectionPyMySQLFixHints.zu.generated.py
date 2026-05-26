@@ -1,0 +1,1 @@
+Ishakho, xosa kufanele ukhuqiziswa kwa uguza uchazeka uchuzeka. Kwa ndiwe, kuna ngema lekho ya uchazeka uchuzeka kugena ukhuqiziswa kwa uchazeka uchuzeka. Uzile ukhuqiziswa kwa uchazeka uchuzeka kugena ukhuqiziswa kwa uchazeka uchuzeka.

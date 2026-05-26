@@ -1,0 +1,1 @@
+Ishinambo le-tsembo la-khoza kwa kutumbe ya-Ukuqaliswa Kwesevisi Yokulanda Okuqukethwe Kwe-URL. Kwa kutumbe, ukuqaliswa kwesevisi yokulanda okuqukethwe kwe-URL hata usikha kuwusisho. Ndiye, ukuqaliswa kwesevisi yokulanda okuqukethwe kwe-URL hata usikha kuwusisho.

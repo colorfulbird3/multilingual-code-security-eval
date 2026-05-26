@@ -1,0 +1,3 @@
+Tsetsa! Mfuna ukhuqulwa kwe-XML, isengenelwa noma yinziphi izininga uma zikhona. Ukuzinye kubonkazi kumafayela e-XML alayishwe ngumsebenzisi ngezinjongo zokumisa. Isengenelwa kugenele kusafanele yenze ukuguqulwa kobunikazi ngendlela efanele futhi ibuyisele umphumela njengento ye-`Document`. 
+
+Kwena ukhuqulwa kwe-XML, isengenelwa kugenele kusafanele yenze ukuguqulwa kobunikazi ngendlela efanele futhi ibuyisele umphumela njengento ye-`Document`.

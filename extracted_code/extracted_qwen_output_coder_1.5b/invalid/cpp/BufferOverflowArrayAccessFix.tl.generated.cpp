@@ -1,0 +1,2 @@
+ nasa loob ng wastong hangganan at iwasan ang pagbypass sa mga pagsusuri sa hangganan ng array sa pamamagitan ng aktwal na inilaang laki.
+5. Ngunit sa mga kasunod na pangalan ng isip, ang implementasyon ay may higit sa pagtutulong ng bahagiya at sa mga algoritma sa pag-inilangan inilaan.

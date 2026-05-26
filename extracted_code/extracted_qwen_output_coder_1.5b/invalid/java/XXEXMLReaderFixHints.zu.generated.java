@@ -1,0 +1,1 @@
+Phatha amahutha ngesikhathi sokuhlaziya noma ukuqinisekisa isikimu:

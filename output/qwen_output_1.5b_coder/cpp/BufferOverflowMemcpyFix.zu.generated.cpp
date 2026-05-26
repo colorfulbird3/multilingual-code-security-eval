@@ -1,0 +1,32 @@
+ idatha yemiphumela yemibuzo ibe yisikhumbuzo esishiwo.
+2. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+3. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+4. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+5. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+6. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+7. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+8. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+9. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+10. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+11. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+12. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+13. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+14. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+15. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+16. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+17. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+18. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+19. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+20. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+21. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+22. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+23. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+24. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+25. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+26. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+27. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+28. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+29. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+30. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+31. Ukuze imiphelelelelwa imiphumela wemibuzo lapho kuyiwa khona.
+32. Ukuze imiphelelelelwa imiphumela
